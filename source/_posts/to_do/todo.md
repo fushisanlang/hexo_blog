@@ -6,6 +6,6 @@ categories:
  - to_do
 ---
 
-1. 调研oss产品，自建图床
-2. 尝试cdn
-3. flask的orm
+- [ ] 调研oss产品，自建图床
+- [ ] 尝试cdn
+- [ ] flask的orm
