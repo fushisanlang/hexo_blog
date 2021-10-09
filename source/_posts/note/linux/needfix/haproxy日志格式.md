@@ -3,7 +3,7 @@ title: haproxy日志格式
 date: 2020-8-25
 updated: 2020-8-26
 categories:
-  - needfix
+  - note
 abbrlink: 4e02053d
 ---
 ## **haproxy日志格式**

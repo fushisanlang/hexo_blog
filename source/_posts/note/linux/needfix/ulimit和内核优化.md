@@ -3,7 +3,7 @@ title: ulimit和内核优化
 date: 2017-9-1
 updated: 2017-9-2
 categories:
-  - needfix
+  - note
 abbrlink: 1fe2886a
 ---
 ulimit

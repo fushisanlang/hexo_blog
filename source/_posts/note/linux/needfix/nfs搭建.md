@@ -3,7 +3,7 @@ title: nfs搭建
 date: 2016-11-20
 updated: 2016-11-21
 categories:
-  - needfix
+  - note
 abbrlink: 941a0cef
 ---
 * 只读分享 

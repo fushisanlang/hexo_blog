@@ -3,7 +3,7 @@ title: SVN账户添加
 date: 2018-3-11
 updated: 2018-3-12
 categories:
-  - needfix
+  - note
 abbrlink: e922a15f
 ---
 ## **SVN账户添加**

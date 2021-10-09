@@ -3,7 +3,9 @@ title: 简易DNS服务器搭建
 date: 2017-6-26
 updated: 2017-6-27
 categories:
-  - needfix
+  - note
+tags:
+  - DNS
 abbrlink: '675265e9'
 ---
 # 简易DNS服务器搭建

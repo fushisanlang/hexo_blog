@@ -3,7 +3,7 @@ title: lvm拉伸
 date: 2019-11-18
 updated: 2019-11-19
 categories:
-  - needfix
+  - note
 abbrlink: 695bf1f7
 ---
 

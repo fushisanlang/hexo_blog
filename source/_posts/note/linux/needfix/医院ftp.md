@@ -3,7 +3,7 @@ title: 医院ftp
 date: 2020-4-23
 updated: 2020-4-24
 categories:
-  - needfix
+  - note
 abbrlink: ed7dff3c
 ---
     vim /etc/vsftpd/vsftpd.conf

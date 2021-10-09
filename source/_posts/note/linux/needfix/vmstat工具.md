@@ -3,7 +3,7 @@ title: vmstat工具
 date: 2020-7-6
 updated: 2020-7-7
 categories:
-  - needfix
+  - note
 abbrlink: bdb62e73
 ---
 

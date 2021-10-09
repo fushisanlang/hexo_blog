@@ -3,7 +3,7 @@ title: mysql连接池
 date: 2018-11-23
 updated: 2018-11-24
 categories:
-  - needfix
+  - note
 abbrlink: 7388afd1
 ---
 ### mysql连接池

@@ -3,7 +3,7 @@ title: mysql授权远程连接
 date: 2019-5-7
 updated: 2019-5-8
 categories:
-  - needfix
+  - note
 abbrlink: 447a2d16
 ---
     GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'IDENTIFIED BY 'qaz000123' WITH GRANT OPTION; 

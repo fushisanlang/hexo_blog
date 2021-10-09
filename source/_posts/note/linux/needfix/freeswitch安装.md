@@ -3,7 +3,7 @@ title: freeswitch安装
 date: 2017-1-23
 updated: 2017-1-24
 categories:
-  - needfix
+  - note
 abbrlink: 77980b25
 ---
 # freeswitch 安装

@@ -3,10 +3,13 @@ title: zabbix数据库表结构
 date: 2020-1-21
 updated: 2020-1-22
 categories:
-  - needfix
+  - note
+tags:
+  - mysql
+  - zabbix
 abbrlink: 211b3eb9
 ---
-
+```
 	
 	mysql> show tables;
 	+-----------------------+
@@ -682,3 +685,4 @@ abbrlink: 211b3eb9
 	| rows_per_page  | int(11)             | NO   |     | 50          |       |
 	+----------------+---------------------+------+-----+-------------+-------+
 
+```

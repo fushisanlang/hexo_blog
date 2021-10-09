@@ -3,7 +3,7 @@ title: Linux错误代码含义
 date: 2020-5-25
 updated: 2020-5-26
 categories:
-  - needfix
+  - note
 abbrlink: f4b4ff58
 ---
 # Linux错误代码含义

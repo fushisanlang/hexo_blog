@@ -3,7 +3,7 @@ title: mysql各项配置
 date: 2016-4-24
 updated: 2016-4-25
 categories:
-  - needfix
+  - note
 abbrlink: 66274c52
 ---
 ## **mysql配置文件**

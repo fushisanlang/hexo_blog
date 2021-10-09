@@ -3,7 +3,7 @@ title: nc脚本
 date: 2020-7-9
 updated: 2020-7-10
 categories:
-  - needfix
+  - note
 abbrlink: d96a3322
 ---
 ```shell

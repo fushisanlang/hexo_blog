@@ -3,7 +3,7 @@ title: ftp时间与系统时间不一致
 date: 2017-4-19
 updated: 2017-4-20
 categories:
-  - needfix
+  - note
 abbrlink: 2e37a4aa
 ---
 ftp服务默认使用的是GMT时区，本地时间多数为CST时区。两者时区不同，所以在使用时，会显示不同的时间。   

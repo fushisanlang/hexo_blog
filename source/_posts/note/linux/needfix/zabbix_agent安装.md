@@ -3,7 +3,7 @@ title: zabbix_agent安装
 date: 2019-10-15
 updated: 2019-10-16
 categories:
-  - needfix
+  - note
 abbrlink: 5f6adbed
 ---
 

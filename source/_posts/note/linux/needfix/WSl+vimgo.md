@@ -3,7 +3,7 @@ title: WSl+vimgo
 date: 2019-5-9
 updated: 2019-5-10
 categories:
-  - needfix
+  - note
 abbrlink: 8dec6b6c
 ---
 # WSl创建golang-unix开发环境

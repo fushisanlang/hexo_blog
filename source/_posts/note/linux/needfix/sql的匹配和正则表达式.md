@@ -3,7 +3,7 @@ title: sql的匹配和正则表达式
 date: 2018-2-16
 updated: 2018-2-17
 categories:
-  - needfix
+  - note
 abbrlink: 3a0f205
 ---
 ## [sql的匹配和正则表达式](https://www.cnblogs.com/qi-yuan-008/p/11892962.html)

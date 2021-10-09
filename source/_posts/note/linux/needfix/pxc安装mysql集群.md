@@ -3,7 +3,7 @@ title: pxc安装mysql集群
 date: 2019-10-4
 updated: 2019-10-5
 categories:
-  - needfix
+  - note
 abbrlink: 942b5025
 ---
 ## PXC搭建

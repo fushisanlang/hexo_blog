@@ -2,8 +2,10 @@
 title: 第四代nfs4安装与使用
 date: 2016-1-19
 updated: 2016-1-20
+tags:
+  - nfs
 categories:
-  - needfix
+  - note
 abbrlink: 61006a97
 ---
 ### 环境：

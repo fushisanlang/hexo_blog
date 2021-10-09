@@ -3,7 +3,7 @@ title: puppet基本使用
 date: 2019-10-11
 updated: 2019-10-12
 categories:
-  - needfix
+  - note
 abbrlink: 667b045a
 ---
 # puppet基本使用

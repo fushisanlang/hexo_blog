@@ -3,7 +3,7 @@ title: iptables工具
 date: 2020-2-20
 updated: 2020-2-21
 categories:
-  - needfix
+  - note
 abbrlink: f71faba5
 ---
     iptables -L -n #查看iptables已有策略

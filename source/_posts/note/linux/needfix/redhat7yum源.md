@@ -3,7 +3,7 @@ title: redhat7 yum源
 date: 2017-1-8
 updated: 2017-1-9
 categories:
-  - needfix
+  - note
 abbrlink: 4ce3bc0b
 ---
 # redhat7 yum源

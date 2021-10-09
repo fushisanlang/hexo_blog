@@ -3,7 +3,7 @@ title: mysql输入密码无法登陆
 date: 2017-12-17
 updated: 2017-12-18
 categories:
-  - needfix
+  - note
 abbrlink: 2ee57458
 ---
 ### mysql输入密码无法登陆

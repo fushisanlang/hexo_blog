@@ -3,7 +3,7 @@ title: Ansible基础
 date: 2017-3-12
 updated: 2017-3-13
 categories:
-  - needfix
+  - note
 abbrlink: 597889c5
 ---
 # Ansible基础

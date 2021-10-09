@@ -3,7 +3,7 @@ title: 源码安装pxc5
 date: 2018-10-11
 updated: 2018-10-12
 categories:
-  - needfix
+  - note
 abbrlink: 89adca3d
 ---
 # 源码安装pxc5.7

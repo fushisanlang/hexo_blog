@@ -3,9 +3,12 @@ title: 配置ftp服务
 date: 2018-10-3
 updated: 2018-10-4
 categories:
-  - needfix
+  - note
+tags:
+  - ftp
 abbrlink: bd4a9c44
 ---
+```shell
     vim /etc/sysconfig/selinux
         SELINUX=disabled
     reboot
@@ -16,11 +19,11 @@ abbrlink: bd4a9c44
     yum install lftp -y
         firewall-cmd --permanent --add-service=ftp
         firewall-cmd --reload
-
+```
 
 * 匿名用户服务
 
-    
+```shell   
     vim /etc/vsftpd/vsftpd.conf     ##ftp服务配置文件
         anonymous_enable=YES|NO		##匿名用户登陆限制
 
@@ -49,11 +52,11 @@ abbrlink: bd4a9c44
         anon_max_rate=102400    #<最大上传速率>
 
         max_clients=2   #<最大链接数>
-
+```
 
 * 本地用户配置
     
-
+```shell
     vim /etc/vsftpd/vsftpd.conf
         local_enable=YES|NO		##本地用户登陆限制
         write_enable=YES|NO		##本地用户写权限限制
@@ -82,13 +85,14 @@ abbrlink: bd4a9c44
         userlist_deny=NO                #用户白名单设定
         /etc/vsftpd/user_list			        
         #参数设定，此文件变成用户白名单，只在名单中出现的用户可以登陆ftp
-
+```
 * 虚拟帐号配置独立   
 
-
+```shell
     vim /etc/vsftpd/vsftpd.conf
         #注释或者删除所有匿名账户设置
         user_config_dir=/etc/vsftpd/userconf
     mkdir -p /etc/vsftpd/userconf
     vim /etc/vsftpd/userconf/user1       
         #在此文件中单独配置user1的权限，此文件的优先级高。
+```

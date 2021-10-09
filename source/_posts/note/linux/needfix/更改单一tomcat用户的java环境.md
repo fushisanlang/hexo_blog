@@ -3,13 +3,15 @@ title: 更改单一tomcat用户的java环境
 date: 2019-1-16
 updated: 2019-1-17
 categories:
-  - needfix
+  - note
+tags:
+  - 环境变量
 abbrlink: 4064e97b
 ---
 ## **更改单一tomcat用户的java环境**
 
 *  操作历史
-
+```
 		netstat -tlnup | grep 8080
 		ps -lef  | grep 10652
 		su - tomcat
@@ -27,6 +29,7 @@ abbrlink: 4064e97b
 		sh startup.sh
 		tail -f logs/catalina.out 
 		netstat -tlnup | grep 8080
+```
 * 操作思路
 
 因为此服务器上，tomcat上只有一个服务，所以可以通过更改环境变量更改java环境。如果运行不停地tomcat服务，统一的更改java环境可能会造成其他的服务出现问题。具体更改方法在以后学习。   

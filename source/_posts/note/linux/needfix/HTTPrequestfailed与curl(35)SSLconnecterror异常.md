@@ -3,7 +3,7 @@ title: HTTP request failed  与 curl (35) SSL connect error 异常
 date: 2020-9-12
 updated: 2020-9-13
 categories:
-  - needfix
+  - note
 abbrlink: 770b0c4
 ---
 ## HTTP request failed  与 curl: (35) SSL connect error 异常

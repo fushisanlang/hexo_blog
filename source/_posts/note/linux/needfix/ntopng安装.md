@@ -3,7 +3,7 @@ title: ntopng安装
 date: 2018-10-17
 updated: 2018-10-18
 categories:
-  - needfix
+  - note
 abbrlink: 9b44f28
 ---
 ## ntopng安装

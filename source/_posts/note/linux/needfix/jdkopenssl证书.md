@@ -3,7 +3,7 @@ title: jdk openssl证书
 date: 2016-12-14
 updated: 2016-12-15
 categories:
-  - needfix
+  - note
 abbrlink: 89a7c75d
 ---
 ```

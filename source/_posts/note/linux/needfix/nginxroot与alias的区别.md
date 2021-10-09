@@ -3,7 +3,7 @@ title: nginx root与alias的区别
 date: 2020-8-17
 updated: 2020-8-18
 categories:
-  - needfix
+  - note
 abbrlink: 90ea0300
 ---
 # nginx root与alias的区别

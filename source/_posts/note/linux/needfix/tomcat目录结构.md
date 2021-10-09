@@ -3,7 +3,7 @@ title: tomcat目录结构
 date: 2019-10-18
 updated: 2019-10-19
 categories:
-  - needfix
+  - note
 abbrlink: 82b89847
 ---
 tomcat文件目录

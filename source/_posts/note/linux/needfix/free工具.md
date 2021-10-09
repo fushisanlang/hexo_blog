@@ -3,7 +3,7 @@ title: free工具
 date: 2018-9-14
 updated: 2018-9-15
 categories:
-  - needfix
+  - note
 abbrlink: 82a0d5e7
 ---
 如下显示free是显示的当前内存的使用,-m的意思是M字节来显示内容.我们来一起看看.

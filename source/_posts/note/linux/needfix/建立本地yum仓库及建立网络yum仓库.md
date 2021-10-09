@@ -3,7 +3,9 @@ title: 建立本地yum仓库及建立网络yum仓库
 date: 2017-5-21
 updated: 2017-5-22
 categories:
-  - needfix
+  - note
+tags:
+  - yum
 abbrlink: '48203e08'
 ---
 ### 建立本地yum仓库

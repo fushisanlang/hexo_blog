@@ -3,7 +3,7 @@ title: redhat7
 date: 2019-7-22
 updated: 2019-7-23
 categories:
-  - needfix
+  - note
 abbrlink: 9679361e
 ---
 # redhat7.4安装ruby

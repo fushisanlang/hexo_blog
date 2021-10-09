@@ -3,7 +3,7 @@ title: kill -USER1原理
 date: 2017-10-8
 updated: 2017-10-9
 categories:
-  - needfix
+  - note
 abbrlink: dd2a1d32
 ---
 ### kill -USER1原理

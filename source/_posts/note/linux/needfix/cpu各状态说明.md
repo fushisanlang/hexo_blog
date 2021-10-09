@@ -3,7 +3,7 @@ title: cpu各状态说明
 date: 2018-2-15
 updated: 2018-2-16
 categories:
-  - needfix
+  - note
 abbrlink: 8bab4762
 ---
  CPU运行状态 解释

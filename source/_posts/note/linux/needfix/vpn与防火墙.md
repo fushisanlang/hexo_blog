@@ -3,7 +3,7 @@ title: vpn与防火墙
 date: 2020-12-20
 updated: 2020-12-21
 categories:
-  - needfix
+  - note
 abbrlink: c164fb50
 ---
 vpn与防火墙

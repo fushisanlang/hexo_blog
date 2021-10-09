@@ -3,7 +3,7 @@ title: htop工具
 date: 2017-9-11
 updated: 2017-9-12
 categories:
-  - needfix
+  - note
 abbrlink: 4b55337f
 ---
 ## htop 工具

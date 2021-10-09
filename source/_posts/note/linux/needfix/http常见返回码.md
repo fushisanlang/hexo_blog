@@ -3,7 +3,7 @@ title: http常见返回码
 date: 2018-6-16
 updated: 2018-6-17
 categories:
-  - needfix
+  - note
 abbrlink: 449f3c33
 ---
 # http常见返回码

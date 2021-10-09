@@ -3,7 +3,7 @@ title: python调用shell脚本
 date: 2020-10-8
 updated: 2020-10-9
 categories:
-  - needfix
+  - note
 abbrlink: c9a4af86
 ---
 ## python调用shell脚本

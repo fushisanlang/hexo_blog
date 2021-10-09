@@ -3,7 +3,9 @@ title: 搭建内网yum源
 date: 2019-12-1
 updated: 2019-12-2
 categories:
-  - needfix
+  - note
+tags:
+  - yum
 abbrlink: 8831909b
 ---
 ## 基于epel源搭建内网yum源

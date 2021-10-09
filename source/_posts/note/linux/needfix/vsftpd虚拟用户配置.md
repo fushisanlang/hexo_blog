@@ -3,7 +3,7 @@ title: vsftpd虚拟用户配置
 date: 2017-5-18
 updated: 2017-5-19
 categories:
-  - needfix
+  - note
 abbrlink: d64b7a0c
 ---
 ## vsftpd虚拟用户配置 

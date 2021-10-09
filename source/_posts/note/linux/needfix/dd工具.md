@@ -3,7 +3,7 @@ title: dd工具
 date: 2019-6-18
 updated: 2019-6-19
 categories:
-  - needfix
+  - note
 abbrlink: 6c79f6b6
 ---
     dd if=/dev/xvdb1 of=test4 bs=1000M count=1

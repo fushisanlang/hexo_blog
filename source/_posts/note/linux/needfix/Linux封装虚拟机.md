@@ -3,7 +3,7 @@ title: Linux封装虚拟机
 date: 2017-10-22
 updated: 2017-10-23
 categories:
-  - needfix
+  - note
 abbrlink: 90aefccf
 ---
 ## 封装   

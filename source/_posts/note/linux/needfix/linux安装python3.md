@@ -3,7 +3,7 @@ title: linux安装python3
 date: 2019-1-3
 updated: 2019-1-4
 categories:
-  - needfix
+  - note
 abbrlink: 82eef90b
 ---
 # linux 安装 python3

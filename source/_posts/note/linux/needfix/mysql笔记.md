@@ -3,7 +3,7 @@ title: mysql笔记
 date: 2019-10-6
 updated: 2019-10-7
 categories:
-  - needfix
+  - note
 abbrlink: cff900a3
 ---
 ```sql

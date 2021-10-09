@@ -2,10 +2,14 @@
 title: 安装haproxy并负载mysql
 date: 2019-3-7
 updated: 2019-3-8
+tags:
+  - haproxy
+  - mysql
 categories:
-  - needfix
+  - note
 abbrlink: 306013b0
 ---
+```shell
     cd /soft  #将软件包放在此目录
     tar xzvf haproxy-1.7.5.tar.gz
     cd /soft/haproxy-1.7.5/
@@ -41,23 +45,25 @@ abbrlink: 306013b0
     chkconfig haproxy on
     service rsyslog restart
     chkconfig rsyslog on
-    
-此时可以通过web访问IP:8080/haproxy/stats来查看当前haproxy状态。
-此时后端数据库的状态应该都是错误的，因为haproxy无法访问后端数据库，无法对其进行检查。
+```    
+此时可以通过web访问 `IP:8080/haproxy/stats` 来查看当前 `haproxy` 状态。
+此时后端数据库的状态应该都是错误的，因为 `haproxy` 无法访问后端数据库，无法对其进行检查。
     
 所以需要在后段数据库服务器进行如下操作：
-
+```
     yum -y install xinetd
     /etc/init.d/xinted start
 	chkconfig xinetd on
 	mysql -hlocalhost -p
 	    > GRANT PROCESS ON *.* TO 'clustercheckuser'@'localhost' IDENTIFIED BY 'clustercheckpassword!';
-	clustercheck  #通过此命令检测，如果回显为
+    
+	clustercheck  #通过此命令检测，如果回显为以下信息，表示可用。将所有后端服务器进行此操作后，web界面显示的就是后端服务器真实的状态。
         HTTP/1.1 200 OK
         Content-Type: text/plain
         Connection: close
         Content-Length: 40
     
         Percona XtraDB Cluster Node is synced.
-    表示可用。将所有后端服务器进行此操作后，web界面显示的就是后端服务器真实的状态。
+```
+    
     

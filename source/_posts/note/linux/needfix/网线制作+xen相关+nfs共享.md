@@ -3,7 +3,11 @@ title: 网线制作+xen相关+nfs共享
 date: 2016-10-9
 updated: 2016-10-10
 categories:
-  - needfix
+  - note
+tags:
+  - nfs
+  - xen
+  - 网线
 abbrlink: 204b2a80
 ---
 ## **网线制作**   
@@ -41,7 +45,7 @@ xencenter是一个exe文件，在windows下选择合适的目录安装即可。
 
 本处目的在于搭建一个自己使用的或小范围使用的nfs服务器，而非放在网络上的服务器，所以为了操作简便，直接关闭了火墙。   
 一个Linux系统：
-
+```
 	yum install nfs-utils -y
 	/etc/init.d/iptables stop
 	setenforce 0
@@ -52,16 +56,17 @@ xencenter是一个exe文件，在windows下选择合适的目录安装即可。
 	mkdir /share
 	cp ***.iso /share    #已经准备好的镜像文件
 	exportfs -rv    #刷新服务
-
+```
 通过上述操作，即可通过nfs将iso共享给192.168.26.130。  
 
 可以通过在130上输入：
-
+```
 	showmount -e 192.168.26.129
-
+```
 查看共享是否成功。可以通过：
-
+```
 	mount 192.168.26.129：/share  /mnt 
+```
 直接使用共享的内容。
 
  
