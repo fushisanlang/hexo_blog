@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: rhel7基于ngx_http_auth_basic_module配置网站密码认证
 tags :
  - nginx

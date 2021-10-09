@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: Jenkins备份及多节点
 tags :
  - qa

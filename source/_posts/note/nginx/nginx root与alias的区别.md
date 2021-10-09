@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: nginx root与alias的区别
 tags :
  - nginx

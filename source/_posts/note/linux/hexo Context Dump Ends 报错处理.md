@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: hexo Context Dump Ends 报错处理
 tags :
  - hexo

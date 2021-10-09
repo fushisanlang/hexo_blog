@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: manjaro 20 i3环境部署记录
 tags :
  - manjaro

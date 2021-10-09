@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: list and tuple
 tags :
  - python

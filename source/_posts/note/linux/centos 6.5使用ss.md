@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: centos 6.5使用ss
 tags :
  - ss

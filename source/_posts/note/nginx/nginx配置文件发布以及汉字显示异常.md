@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: nginx配置文件发布以及汉字显示异常
 tags :
  - nginx

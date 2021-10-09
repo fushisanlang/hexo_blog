@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: prometheus（普罗米修斯）入门使用
 tags :
  - prometheus

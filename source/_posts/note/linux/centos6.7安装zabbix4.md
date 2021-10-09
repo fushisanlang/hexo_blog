@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: centos6.7安装zabbix4
 tags :
  - zabbix

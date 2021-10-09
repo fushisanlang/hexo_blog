@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: nginx源码安装及简单配置
 tags :
  - nginx

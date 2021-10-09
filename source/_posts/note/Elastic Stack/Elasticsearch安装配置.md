@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: Elasticsearch安装配置
 tags :
  - Elasticsearch

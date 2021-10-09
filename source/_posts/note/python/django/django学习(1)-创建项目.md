@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: django学习(1)-创建项目
 tags :
  - python

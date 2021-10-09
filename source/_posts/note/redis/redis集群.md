@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: redis集群
 tags :
  - redis

@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: prometheus部署并配置成系统服务
 tags :
  - prometheus

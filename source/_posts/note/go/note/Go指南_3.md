@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: Go 指南(三)
 tags :
  - go

@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: lnmp搭建dz论坛
 tags :
  - lnmp

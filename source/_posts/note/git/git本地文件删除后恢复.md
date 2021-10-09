@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: git本地文件删除后恢复
 tags :
  - git

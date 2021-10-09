@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: Mariadb安装与使用
 tags :
  - Mariadb安装与使用

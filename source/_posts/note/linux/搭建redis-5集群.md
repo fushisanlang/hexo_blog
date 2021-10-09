@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: 搭建redis-5集群
 tags :
  - redis cluster

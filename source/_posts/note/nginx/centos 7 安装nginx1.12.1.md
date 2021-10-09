@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: centos 7 安装nginx1.12.1
 tags :
  - nginx

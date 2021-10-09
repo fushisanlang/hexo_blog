@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: centos7 安装docker-ce
 tags :
  - docker

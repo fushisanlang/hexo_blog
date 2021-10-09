@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: 基于Docker的Redis集群搭建
 tags :
  - docker

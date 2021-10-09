@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: nginx与tomcat之间https通信配置方式
 tags :
  - nginx

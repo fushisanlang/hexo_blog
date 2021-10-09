@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: xen主机异常问题记录
 tags :
  - xen

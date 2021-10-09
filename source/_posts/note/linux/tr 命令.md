@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: tr 命令权限列表
 tags :
  - tr 

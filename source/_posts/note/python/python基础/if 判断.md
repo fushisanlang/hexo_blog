@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: if 判断
 tags :
  - python

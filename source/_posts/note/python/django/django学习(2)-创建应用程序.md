@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: django学习(2)-创建应用程序
 tags :
  - python

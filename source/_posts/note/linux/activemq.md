@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: activeMQ安装及密码配置
 tags :
  - activeMQ

@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: Nginx中的rewrite指令
 tags :
  - nginx

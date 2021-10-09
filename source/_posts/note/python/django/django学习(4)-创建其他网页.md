@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: django学习(4)-创建其他网页
 tags :
  - python

@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: bk-cmdb安装
 tags :
  - bk-cmdb

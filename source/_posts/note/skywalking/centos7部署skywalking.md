@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: centos7部署skywalking
 tags :
  - nginx

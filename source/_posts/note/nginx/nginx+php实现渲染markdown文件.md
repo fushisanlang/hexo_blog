@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: nginx+php实现渲染markdown文件
 tags :
  - nginx

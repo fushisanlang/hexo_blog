@@ -1,4 +1,5 @@
 
+date: 2021-07-04
 ---
 title: nginx加装lua模块，并配置skywalking-nginx-lua
 tags :

@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: 通过prometheus监控mysql及pxc
 tags :
  - prometheus

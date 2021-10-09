@@ -1,4 +1,5 @@
 
+date: 2021-07-04
 ---
 title: flask笔记-使用mysql连接池
 tags :

@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: 数字运算-expr与bc
 tags :
  - shell

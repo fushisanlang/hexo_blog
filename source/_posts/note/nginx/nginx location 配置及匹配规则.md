@@ -1,4 +1,5 @@
 ---
+date: 2021-07-04
 title: nginx location 配置及匹配规则
 tags :
  - nginx
