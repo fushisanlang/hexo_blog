@@ -1,11 +1,12 @@
 ---
 title: http
+date: 2020-2-18
+updated: 2020-2-19
 tags:
   - go
 categories:
   - demo
 abbrlink: 97780db2
-date: 2021-07-04 00:00:00
 ---
 
 ```golang

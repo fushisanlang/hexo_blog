@@ -1,11 +1,12 @@
 ---
 title: if 判断
+date: 2017-1-12
+updated: 2017-1-13
 tags:
   - python
 categories:
   - note
 abbrlink: e8f5121a
-date: 2021-07-04 00:00:00
 ---
 
 ## if 判断

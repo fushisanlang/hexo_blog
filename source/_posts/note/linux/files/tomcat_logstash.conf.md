@@ -1,11 +1,12 @@
 ---
 title: tomcat_logstash.conf
+date: 2016-10-5
+updated: 2016-10-6
 tags:
   - logstash
 categories:
   - file
 abbrlink: 91116fcd
-date: 2021-07-04 00:00:00
 ---
 ```
 input {  
@@ -24,7 +25,6 @@ filter{
 (?:%{NUMBER:bytes}|-) %{NUMBER:responsetime} \"(?:%{URI:referrer}|-)\" %
 {QS:agent}" }
   }    
-  date{
    match => [ "timestamp", "dd/MMM/yyyy:HH:mm:ss Z" ]
    target => ["writetime"]
   }  

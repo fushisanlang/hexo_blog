@@ -1,12 +1,13 @@
 ---
 title: Centos6.7设置基于GoogleAuthenticator的二次验证ssh登陆
+date: 2019-12-9
+updated: 2019-12-10
 tags:
   - ssh
   - GoogleAuthenticator
 categories:
   - note
 abbrlink: 6c80da9d
-date: 2021-07-04 00:00:00
 ---
 
 * 环境介绍
@@ -58,7 +59,6 @@ Your emergency scratch codes are:  ##需要注意的是：这5个验证码用一
 37383236
 70667696
 70522112
-Do you want me to update your "/root/.google_authenticator" file (y/n) y       #提示是否要更新验证文件，选择y
 
 Do you want to disallow multiple uses of the same authentication
 token? This restricts you to one login about every 30s, but it increases

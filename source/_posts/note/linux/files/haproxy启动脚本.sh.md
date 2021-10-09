@@ -1,12 +1,13 @@
 ---
 title: haproxy启动脚本.sh
+date: 2020-9-8
+updated: 2020-9-9
 tags:
   - haproxy
   - shell
 categories:
   - file
 abbrlink: 5748ecd5
-date: 2021-07-04 00:00:00
 ---
 ```bash
 #!/bin/bash

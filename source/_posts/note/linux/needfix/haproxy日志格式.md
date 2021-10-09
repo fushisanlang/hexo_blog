@@ -1,9 +1,10 @@
 ---
 title: haproxy日志格式
+date: 2020-8-25
+updated: 2020-8-26
 categories:
   - needfix
 abbrlink: 4e02053d
-date: 2021-07-04 00:00:00
 ---
 ## **haproxy日志格式**
 

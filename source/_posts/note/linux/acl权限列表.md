@@ -1,11 +1,12 @@
 ---
 title: acl 权限列表
+date: 2016-9-11
+updated: 2016-9-12
 tags:
   - acl
 categories:
   - note
 abbrlink: e364e432
-date: 2021-07-04 00:00:00
 ---
 
 * 什么是权限列表

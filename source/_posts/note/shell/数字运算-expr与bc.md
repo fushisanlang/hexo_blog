@@ -1,11 +1,12 @@
 ---
 title: 数字运算-expr与bc
+date: 2018-4-24
+updated: 2018-4-25
 tags:
   - shell
 categories:
   - note
 abbrlink: 736bae7c
-date: 2021-07-04 00:00:00
 ---
 
 ###  数字运算-expr与bc

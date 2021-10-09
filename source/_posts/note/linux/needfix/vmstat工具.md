@@ -1,9 +1,10 @@
 ---
 title: vmstat工具
+date: 2020-7-6
+updated: 2020-7-7
 categories:
   - needfix
 abbrlink: bdb62e73
-date: 2021-07-04 00:00:00
 ---
 
 ## **vmstat命令详解**

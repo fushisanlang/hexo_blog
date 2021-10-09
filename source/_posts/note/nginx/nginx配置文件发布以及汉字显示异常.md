@@ -1,11 +1,12 @@
 ---
 title: nginx配置文件发布以及汉字显示异常
+date: 2017-1-7
+updated: 2017-1-8
 tags:
   - nginx
 categories:
   - note
 abbrlink: e33da698
-date: 2021-07-04 00:00:00
 ---
 
 ### nginx配置文件发布以及汉字显示异常

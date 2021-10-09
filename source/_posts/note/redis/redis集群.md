@@ -1,11 +1,12 @@
 ---
 title: redis集群
+date: 2017-10-25
+updated: 2017-10-26
 tags:
   - redis
 categories:
   - note
 abbrlink: b153a32a
-date: 2021-07-04 00:00:00
 ---
 
 ## 环境说明

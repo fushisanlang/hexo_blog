@@ -1,11 +1,12 @@
 ---
 title: haproxy.cfg
+date: 2017-6-20
+updated: 2017-6-21
 tags:
   - haproxy
 categories:
   - file
 abbrlink: '25235857'
-date: 2021-07-04 00:00:00
 ---
 
 ```

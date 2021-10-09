@@ -1,12 +1,13 @@
 ---
 title: django学习(2)-创建应用程序
+date: 2020-2-19
+updated: 2020-2-20
 tags:
   - python
   - django
 categories:
   - note
 abbrlink: 163ad583
-date: 2021-07-04 00:00:00
 ---
 
 # django学习(2)-创建应用程序
@@ -36,17 +37,14 @@ from django.db import models
 
 class Topic(models.Model):
     text = models.CharField(max_length=200)
-    date_added = models.DateTimeField(auto_now_add=True)
     
     def __str__(self):
         return self.text
 ```
 <!--more-->
-此处定义了Topic类。它继承了Model-Djanjo中一个定义了模型基本功能的类。Topic类有两个属性：text和date_added。
 
 text属性一个Charfield--由字符和文本组成的数据。用于储存主题名，长度为200字符。
 
-date_added是一个DateTimeField-记录日期及时间的数据。传递了实参（auto_now_add=True）。每当用户创建新主题之后，Djanjo会将这个属性自动设置为当前日期时间。
 
 *参考Django model field rederence了解可在模型中使用的字段。*   
 
@@ -185,7 +183,6 @@ class Topic(models.Model):
 class Entry(models.Model):
     topic = models.ForeignKey(Topic,on_delete=models.CASCADE)
     text = models.TextField()
-    date_added = models.DateTimeField(auto_now_add=True)
 
     class Meta:
         verbose_name_plural = 'entries'
@@ -198,7 +195,6 @@ class Entry(models.Model):
 
 text属性，是一个TextField实例，这种字段不需要长度限制。
 
-date_added依旧是时间属性。
 
 然后嵌套了一个Meta的类，用于管理模型的额外信息。在这里，我们可以设置一个特殊属性。让Django在需要时，通过`Entries`来显示多个条目。如果没有这个类，Django会使用`Entrys`来表示多个条目。
 

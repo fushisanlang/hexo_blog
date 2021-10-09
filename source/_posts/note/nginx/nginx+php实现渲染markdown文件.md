@@ -1,5 +1,7 @@
 ---
 title: nginx+php实现渲染markdown文件
+date: 2020-12-11
+updated: 2020-12-12
 tags:
   - nginx
   - php
@@ -7,7 +9,6 @@ tags:
 categories:
   - note
 abbrlink: 4d24c08f
-date: 2021-07-04 00:00:00
 ---
 
 ### nginx+php实现渲染markdown文件
@@ -96,6 +97,8 @@ $request_array['mode'] = 'markdown';
 $html_article_body = curl_raw($render_url, json_encode($request_array));
 
 echo '<!DOCTYPE html><html><head><meta charset="utf-8"><title>' . $markdown_filename . '</title><link rel="stylesheet" href="/md.css" type="text/css" /></head>';
+date: 2020-12-11
+updated: 2020-12-12
 echo '<article class="markdown-body">';
 echo $html_article_body;
 echo '</article></body></html>';

@@ -1,11 +1,12 @@
 ---
 title: Nginx中的rewrite指令
+date: 2019-9-12
+updated: 2019-9-13
 tags:
   - nginx
 categories:
   - note
 abbrlink: 5179d239
-date: 2021-07-04 00:00:00
 ---
 
 # Nginx中的rewrite指令(break,last,redirect,permanent)

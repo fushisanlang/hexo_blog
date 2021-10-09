@@ -1,5 +1,7 @@
 ---
 title: WSl创建golang-unix开发环境
+date: 2017-3-23
+updated: 2017-3-24
 tags:
   - code
   - wsl
@@ -7,7 +9,6 @@ tags:
 categories:
   - note
 abbrlink: 20d06290
-date: 2021-07-04 00:00:00
 ---
 
 
@@ -50,11 +51,9 @@ date: 2021-07-04 00:00:00
     sudo cp /etc/apt/sources.list /etc/apt/sources.list_bak
     sudo > /etc/apt/sources.list
     sudo echo "deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse" >> /etc/apt/sources.list
-    sudo echo "deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse" >> /etc/apt/sources.list
     sudo echo "deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse" >> /etc/apt/sources.list
     sudo echo "deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse" >> /etc/apt/sources.list
     
-    sudo apt-get update
     sudo apt-get upgrade
     ```
 

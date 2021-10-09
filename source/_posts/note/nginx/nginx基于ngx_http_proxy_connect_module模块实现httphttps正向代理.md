@@ -1,5 +1,7 @@
 ---
 title: nginx 基于ngx_http_proxy_connect_module模块实现http/https正向代理
+date: 2017-1-1
+updated: 2017-1-2
 tags:
   - nginx
   - 正向代理
@@ -7,7 +9,6 @@ tags:
 categories:
   - note
 abbrlink: f5004f90
-date: 2021-07-04 00:00:00
 ---
 
 # nginx 基于ngx_http_proxy_connect_module模块实现http/https正向代理

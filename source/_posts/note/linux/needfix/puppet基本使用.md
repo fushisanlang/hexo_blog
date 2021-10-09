@@ -1,9 +1,10 @@
 ---
 title: puppet基本使用
+date: 2019-10-11
+updated: 2019-10-12
 categories:
   - needfix
 abbrlink: 667b045a
-date: 2021-07-04 00:00:00
 ---
 # puppet基本使用
 

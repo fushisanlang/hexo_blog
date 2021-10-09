@@ -1,12 +1,13 @@
 ---
 title: grafana 安装
+date: 2020-6-12
+updated: 2020-6-13
 tags:
   - grafana
   - 监控
 categories:
   - note
 abbrlink: 362b0ed6
-date: 2021-07-04 00:00:00
 ---
 
 
@@ -24,7 +25,6 @@ echo "deb https://packages.grafana.com/enterprise/deb stable main" | sudo tee -a
 
 echo "deb https://packages.grafana.com/enterprise/deb beta main" | sudo tee -a /etc/apt/sources.list.d/grafana.list 
 
-sudo apt-get update
 sudo apt-get install grafana-enterprise
 
 sudo systemctl daemon-reload

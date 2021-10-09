@@ -1,11 +1,12 @@
 ---
 title: nginx源码安装及简单配置
+date: 2016-1-1
+updated: 2016-1-2
 tags:
   - nginx
 categories:
   - note
 abbrlink: 20f8d8b9
-date: 2021-07-04 00:00:00
 ---
 # nginx 
 

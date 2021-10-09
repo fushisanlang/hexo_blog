@@ -1,12 +1,13 @@
 ---
 title: django学习(3)-创建网页
+date: 2020-2-5
+updated: 2020-2-6
 tags:
   - python
   - django
 categories:
   - note
 abbrlink: 8a12c2be
-date: 2021-07-04 00:00:00
 ---
 
 # django学习(3)-创建网页

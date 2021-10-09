@@ -1,11 +1,12 @@
 ---
 title: dstat 工具
+date: 2016-11-12
+updated: 2016-11-13
 tags:
   - dstat
 categories:
   - note
 abbrlink: 465f5c71
-date: 2021-07-04 00:00:00
 ---
 
 

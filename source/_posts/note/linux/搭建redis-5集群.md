@@ -1,12 +1,13 @@
 ---
 title: 搭建redis-5集群
+date: 2019-8-11
+updated: 2019-8-12
 tags:
   - redis cluster
   - redis
 categories:
   - note
 abbrlink: a7ecd64e
-date: 2021-07-04 00:00:00
 ---
 
 ## 1.  环境说明

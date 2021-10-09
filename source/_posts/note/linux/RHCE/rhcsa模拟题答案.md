@@ -1,12 +1,13 @@
 ---
 title: rhcsa模拟题答案
+date: 2020-6-1
+updated: 2020-6-2
 tags:
   - rhcsa
   - exam
 categories:
   - note
 abbrlink: 71e7f679
-date: 2021-07-04 00:00:00
 ---
 
 # rhcsa 
@@ -83,9 +84,7 @@ ll -d /home/managers
 
 ```
 
-### update kernel
 ```shell
-rpm -ivh http://172.25.10.254/update/kernel-3.10.0-123.1.2.el7.x86_64.rpm
 vim /boot/grub2/grub.cfg   /menuentry 
 grub2-set-default 0
 reboot

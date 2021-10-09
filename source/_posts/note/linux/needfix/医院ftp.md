@@ -1,9 +1,10 @@
 ---
 title: 医院ftp
+date: 2020-4-23
+updated: 2020-4-24
 categories:
   - needfix
 abbrlink: ed7dff3c
-date: 2021-07-04 00:00:00
 ---
     vim /etc/vsftpd/vsftpd.conf
         #具体内容参照其他医院配置文件

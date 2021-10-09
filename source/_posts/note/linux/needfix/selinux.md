@@ -1,9 +1,10 @@
 ---
 title: selinux
+date: 2020-6-3
+updated: 2020-6-4
 categories:
   - needfix
 abbrlink: 4ce63b73
-date: 2021-07-04 00:00:00
 ---
 * 什么是selinux
 

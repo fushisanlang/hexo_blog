@@ -1,5 +1,7 @@
 ---
 title: nginx与tomcat之间https通信配置方式
+date: 2018-1-17
+updated: 2018-1-18
 tags:
   - nginx
   - tomcat
@@ -7,7 +9,6 @@ tags:
 categories:
   - note
 abbrlink: 77eff4f
-date: 2021-07-04 00:00:00
 ---
 
 ### nginx与tomcat之间https通信配置方式

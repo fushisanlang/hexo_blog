@@ -1,9 +1,10 @@
 ---
 title: 配置ftp服务
+date: 2018-10-3
+updated: 2018-10-4
 categories:
   - needfix
 abbrlink: bd4a9c44
-date: 2021-07-04 00:00:00
 ---
     vim /etc/sysconfig/selinux
         SELINUX=disabled

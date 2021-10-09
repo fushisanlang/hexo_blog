@@ -1,12 +1,13 @@
 ---
 title: nginx location 配置及匹配规则
+date: 2019-5-27
+updated: 2019-5-28
 tags:
   - nginx
   - location
 categories:
   - note
 abbrlink: b7352f98
-date: 2021-07-04 00:00:00
 ---
 # nginx location 配置及匹配规则
 

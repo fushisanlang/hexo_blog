@@ -1,9 +1,10 @@
 ---
 title: 简易DNS服务器搭建
+date: 2017-6-26
+updated: 2017-6-27
 categories:
   - needfix
 abbrlink: '675265e9'
-date: 2021-07-04 00:00:00
 ---
 # 简易DNS服务器搭建
 

@@ -1,11 +1,12 @@
 ---
 title: xenserver 创建本地iso库
+date: 2020-12-27
+updated: 2020-12-28
 tags:
   - xenserver
 categories:
   - note
 abbrlink: 5aa581e
-date: 2021-07-04 00:00:00
 ---
 ### 创建
 

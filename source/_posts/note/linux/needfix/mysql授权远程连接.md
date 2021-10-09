@@ -1,9 +1,10 @@
 ---
 title: mysql授权远程连接
+date: 2019-5-7
+updated: 2019-5-8
 categories:
   - needfix
 abbrlink: 447a2d16
-date: 2021-07-04 00:00:00
 ---
     GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'IDENTIFIED BY 'qaz000123' WITH GRANT OPTION; 
     #授权给root账户通过qaz000123密码远程链接数据库的权限

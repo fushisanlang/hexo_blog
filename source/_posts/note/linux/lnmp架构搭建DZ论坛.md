@@ -1,5 +1,7 @@
 ---
 title: lnmp搭建dz论坛
+date: 2020-2-10
+updated: 2020-2-11
 tags:
   - lnmp
   - nginx
@@ -8,7 +10,6 @@ tags:
 categories:
   - note
 abbrlink: 37b47781
-date: 2021-07-04 00:00:00
 ---
 
 

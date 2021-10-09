@@ -1,9 +1,10 @@
 ---
 title: nc脚本
+date: 2020-7-9
+updated: 2020-7-10
 categories:
   - needfix
 abbrlink: d96a3322
-date: 2021-07-04 00:00:00
 ---
 ```shell
 cat 2 |while read IPPORT

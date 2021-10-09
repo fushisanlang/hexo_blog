@@ -1,12 +1,13 @@
 ---
 title: sentinel.conf
+date: 2016-12-3
+updated: 2016-12-4
 tags:
   - redis
   - sentinel
 categories:
   - file
 abbrlink: 9de43bc8
-date: 2021-07-04 00:00:00
 ---
 
 ```

@@ -1,9 +1,10 @@
 ---
 title: cpu各状态说明
+date: 2018-2-15
+updated: 2018-2-16
 categories:
   - needfix
 abbrlink: 8bab4762
-date: 2021-07-04 00:00:00
 ---
  CPU运行状态 解释
 user 进程执行用户态代码耗费的CPU时间。

@@ -1,5 +1,7 @@
 ---
 title: skywalking结合alertmanager实现监控及报警
+date: 2020-6-26
+updated: 2020-6-27
 tags:
   - alertmanager
   - skywalking
@@ -8,7 +10,6 @@ tags:
 categories:
   - note
 abbrlink: 4844b561
-date: 2021-07-04 00:00:00
 ---
 
 ## 监控说明

@@ -1,5 +1,7 @@
 ---
 title: squid+ad认证+keepalived
+date: 2016-10-7
+updated: 2016-10-8
 tags:
   - squid
   - keepalived
@@ -8,7 +10,6 @@ tags:
 categories:
   - note
 abbrlink: 1f5fbe3f
-date: 2021-07-04 00:00:00
 ---
 
 ## 1 环境说明

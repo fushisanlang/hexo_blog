@@ -1,9 +1,10 @@
 ---
 title: 关于mysql远程连接的配置问题
+date: 2018-9-23
+updated: 2018-9-24
 categories:
   - needfix
 abbrlink: 920ae663
-date: 2021-07-04 00:00:00
 ---
 ## **mysql授权远程连接**
 

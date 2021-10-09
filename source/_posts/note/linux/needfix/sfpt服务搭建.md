@@ -1,9 +1,10 @@
 ---
 title: sfpt服务搭建
+date: 2019-1-23
+updated: 2019-1-24
 categories:
   - needfix
 abbrlink: f39d9b43
-date: 2021-07-04 00:00:00
 ---
     ssh –V  #来查看openssh的版本，如果低于4.8p1，需要自行升级安装，
     groupadd sftp  

@@ -1,11 +1,12 @@
 ---
 title: nginx配置
+date: 2016-5-13
+updated: 2016-5-14
 tags:
   - nginx
 categories:
   - note
 abbrlink: 2bee8b90
-date: 2021-07-04 00:00:00
 ---
 
 ### nginx配置

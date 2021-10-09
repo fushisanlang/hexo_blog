@@ -1,12 +1,13 @@
 ---
 title: nginx各项配置说明
+date: 2017-2-27
+updated: 2017-2-28
 tags:
   - nginx
   - need fix
 categories:
   - note
 abbrlink: 60be2fb7
-date: 2021-07-04 00:00:00
 ---
 
 /usr/local/nginx/conf   
@@ -378,6 +379,8 @@ proxy_pass http://img_relay$request_uri;
     #注释：变量
     #Ngx_http_core_module模块支持内置变量，他们的名字和apache的内置变量是一致的。
     #首先是说明客户请求title中的行，例如$http_user_agent,$http_cookie等等。
+date: 2017-2-27
+updated: 2017-2-28
     #此外还有其它的一些变量
     #$args此变量与请求行中的参数相等
     #$content_length等于请求行的“Content_Length”的值。

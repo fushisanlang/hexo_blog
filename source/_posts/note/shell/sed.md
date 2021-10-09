@@ -1,12 +1,13 @@
 ---
 title: sed
+date: 2017-6-25
+updated: 2017-6-26
 tags:
   - sed
   - shell
 categories:
   - note
 abbrlink: fba335b8
-date: 2021-07-04 00:00:00
 ---
 
 ###  sed

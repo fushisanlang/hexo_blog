@@ -1,11 +1,12 @@
 ---
 title: glances 工具
+date: 2016-12-2
+updated: 2016-12-3
 tags:
   - glances
 categories:
   - note
 abbrlink: fef299cd
-date: 2021-07-04 00:00:00
 ---
 
 

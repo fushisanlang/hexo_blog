@@ -1,12 +1,13 @@
 ---
 title: rhce模拟题答案
+date: 2017-7-24
+updated: 2017-7-25
 tags:
   - rhce
   - exam
 categories:
   - note
 abbrlink: f1d60fc5
-date: 2021-07-04 00:00:00
 ---
 
 1.selinux
@@ -381,7 +382,6 @@ mysql -p
 	> create user Luigi@localhost identified by 'westos';
 	> grant select on Contacts.* to Luigi@localhost;
 
-select date @ DB	
 ```
 
 https://www.yangxiaojia.me/linux/8.html

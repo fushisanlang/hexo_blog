@@ -1,11 +1,12 @@
 ---
 title: lsof命令详解
+date: 2019-7-15
+updated: 2019-7-16
 tags:
   - lsof
 categories:
   - note
 abbrlink: 94aba208
-date: 2021-07-04 00:00:00
 ---
 
 ##  **lsof命令详解**

@@ -1,5 +1,7 @@
 ---
 title: 基于mysqld_exporter的pxc监控项
+date: 2019-10-4
+updated: 2019-10-5
 tags:
   - prometheus
   - 监控
@@ -8,7 +10,6 @@ tags:
 categories:
   - note
 abbrlink: 60b0e8c6
-date: 2021-07-04 00:00:00
 ---
 
 

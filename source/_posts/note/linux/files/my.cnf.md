@@ -1,11 +1,12 @@
 ---
 title: my.cnf
+date: 2019-11-14
+updated: 2019-11-15
 tags:
   - mysql
 categories:
   - file
 abbrlink: a4b910a9
-date: 2021-07-04 00:00:00
 ---
 ```
 [mysqld]

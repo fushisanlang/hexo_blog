@@ -1,12 +1,13 @@
 ---
 title: 基于docker安装Crawlab
+date: 2017-11-13
+updated: 2017-11-14
 tags:
   - docker
   - Crawlab
 categories:
   - note
 abbrlink: b035bbb7
-date: 2021-07-04 00:00:00
 ---
 # 基于docker安装Crawlab
 

@@ -1,11 +1,12 @@
 ---
 title: screen命令
+date: 2018-12-14
+updated: 2018-12-15
 tags:
   - screen
 categories:
   - note
 abbrlink: 7b6b1753
-date: 2021-07-04 00:00:00
 ---
 
 

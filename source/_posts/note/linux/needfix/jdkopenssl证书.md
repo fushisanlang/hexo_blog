@@ -1,9 +1,10 @@
 ---
 title: jdk openssl证书
+date: 2016-12-14
+updated: 2016-12-15
 categories:
   - needfix
 abbrlink: 89a7c75d
-date: 2021-07-04 00:00:00
 ---
 ```
 cd /usr/java/jdk1.6.0_45/jre/lib/security

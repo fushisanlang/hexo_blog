@@ -1,12 +1,13 @@
 ---
 title: centos 7 编译安装nginx1.12.1并加载nginx_upstream_check_module模块
+date: 2018-12-23
+updated: 2018-12-24
 tags:
   - nginx
   - nginx_upstream_check_module
 categories:
   - note
 abbrlink: 89b77a2b
-date: 2021-07-04 00:00:00
 ---
 # centos 7 编译安装nginx1.12.1并加载nginx_upstream_check_module模块
 
@@ -36,7 +37,6 @@ date: 2021-07-04 00:00:00
 
 ### 3.1、安装系统工具
 ```shell
-[root@localhost ~]# yum install vim telnet wget nethogs htop glances dstat traceroute lrzsz goaccess ntpdate dos2unix openssl-devel tcpdump lrzsz fio -y
 ```
 
 ### 3.2、安装编译开发组件

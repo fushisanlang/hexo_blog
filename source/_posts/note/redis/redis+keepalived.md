@@ -1,5 +1,7 @@
 ---
 title: redis+keepalived
+date: 2020-10-26
+updated: 2020-10-27
 tags:
   - redis
   - keepalived
@@ -7,7 +9,6 @@ tags:
 categories:
   - note
 abbrlink: bf4738b7
-date: 2021-07-04 00:00:00
 ---
 
 

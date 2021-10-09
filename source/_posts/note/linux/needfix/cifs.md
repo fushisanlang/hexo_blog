@@ -1,9 +1,10 @@
 ---
 title: cifs
+date: 2017-10-19
+updated: 2017-10-20
 categories:
   - needfix
 abbrlink: b57a9bf9
-date: 2021-07-04 00:00:00
 ---
 * cifs
 

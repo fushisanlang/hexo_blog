@@ -1,9 +1,10 @@
 ---
 title: Linux错误代码含义
+date: 2020-5-25
+updated: 2020-5-26
 categories:
   - needfix
 abbrlink: f4b4ff58
-date: 2021-07-04 00:00:00
 ---
 # Linux错误代码含义
 

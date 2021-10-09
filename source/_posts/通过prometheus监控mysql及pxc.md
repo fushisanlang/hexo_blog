@@ -1,12 +1,13 @@
 ---
 title: 通过prometheus监控mysql及pxc
+date: 2016-8-25
+updated: 2016-8-26
 tags:
   - prometheus
   - mysql
 categories:
   - note
 abbrlink: 12df73bc
-date: 2021-07-04 00:00:00
 ---
 
 ### 环境说明

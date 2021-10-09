@@ -1,11 +1,12 @@
 ---
 title: iostat命令详解
+date: 2020-7-21
+updated: 2020-7-22
 tags:
   - iostat
 categories:
   - note
 abbrlink: 59a882d9
-date: 2021-07-04 00:00:00
 ---
 
 

@@ -1,11 +1,12 @@
 ---
 title: redis安装与配置
+date: 2016-1-13
+updated: 2016-1-14
 tags:
   - redis
 categories:
   - note
 abbrlink: cd10e876
-date: 2021-07-04 00:00:00
 ---
 
 

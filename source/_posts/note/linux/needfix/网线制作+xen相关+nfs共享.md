@@ -1,9 +1,10 @@
 ---
 title: 网线制作+xen相关+nfs共享
+date: 2016-10-9
+updated: 2016-10-10
 categories:
   - needfix
 abbrlink: 204b2a80
-date: 2021-07-04 00:00:00
 ---
 ## **网线制作**   
 网线有两种排线标准：   

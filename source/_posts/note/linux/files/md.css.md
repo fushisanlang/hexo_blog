@@ -1,11 +1,12 @@
 ---
 title: md.css
+date: 2020-7-2
+updated: 2020-7-3
 tags:
   - mdcss
 categories:
   - file
 abbrlink: ae78cb6d
-date: 2021-07-04 00:00:00
 ---
 ```css
 @font-face {

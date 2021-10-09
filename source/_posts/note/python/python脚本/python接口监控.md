@@ -1,11 +1,12 @@
 ---
 title: 接口响应监控
+date: 2016-8-13
+updated: 2016-8-14
 tags:
   - python
 categories:
   - demo
 abbrlink: e96dde8d
-date: 2021-07-04 00:00:00
 ---
 
 ```python
@@ -52,7 +53,6 @@ while True:
         #使用get方法获得json，可以换作post方法并添加认证参数
         result = requests.request("get",url,)
         #模拟结果如下：
-        #{ "date": "20190922 10:10:01", "running": "ok", "errorcode": "1" }
         #将json转为字典形式
         result_dict=json.loads(result.text)
         #打印running的值

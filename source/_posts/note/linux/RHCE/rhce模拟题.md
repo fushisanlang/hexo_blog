@@ -1,5 +1,7 @@
 ---
 title: rhce模拟题
+date: 2016-6-22
+updated: 2016-6-23
 tags:
   - rhce
   - exam
@@ -7,7 +9,6 @@ tags:
 categories:
   - note
 abbrlink: f3fcd0e8
-date: 2021-07-04 00:00:00
 ---
 
 

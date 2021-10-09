@@ -1,11 +1,12 @@
 ---
 title: github拉取
+date: 2016-10-4
+updated: 2016-10-5
 tags:
   - git
 categories:
   - note
 abbrlink: 70220f20
-date: 2021-07-04 00:00:00
 ---
 
 

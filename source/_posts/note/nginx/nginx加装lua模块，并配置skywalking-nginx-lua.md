@@ -1,5 +1,7 @@
 ---
 title: nginx加装lua模块，并配置skywalking-nginx-lua
+date: 2020-2-14
+updated: 2020-2-15
 tags:
   - nginx
   - lua
@@ -7,7 +9,6 @@ tags:
 categories:
   - note
 abbrlink: cd3cbe9
-date: 2021-07-04 00:00:00
 ---
 ## 版本说明
 软件|版本

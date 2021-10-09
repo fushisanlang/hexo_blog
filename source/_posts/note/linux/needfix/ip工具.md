@@ -1,8 +1,9 @@
 ---
 title: ip工具
+date: 2016-10-15
+updated: 2016-10-16
 categories:
   - needfix
 abbrlink: 64ed5bba
-date: 2021-07-04 00:00:00
 ---
 ip link set dev eth0 up

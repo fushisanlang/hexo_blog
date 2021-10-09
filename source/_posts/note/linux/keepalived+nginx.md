@@ -1,12 +1,13 @@
 ---
 title: keepalived + nginx
+date: 2017-5-8
+updated: 2017-5-9
 tags:
   - keepalived
   - nginx
 categories:
   - note
 abbrlink: fe8bda9b
-date: 2021-07-04 00:00:00
 ---
 
 
@@ -287,7 +288,6 @@ do
         INO_EVENT=$(echo $file | awk '{print $1}') 
         #把inotify输出切割-把文件路径部分赋值给INO_FILE     
         INO_FILE=$(echo $file | awk '{print $2}')      
-        echo "-------------------------------$(date)------------------------------------"
         echo $file
 #增加、修改、写入完成、移动进事件
 #增、改放在同一个判断，因为他们都肯定是针对文件的操作，

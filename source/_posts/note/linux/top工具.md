@@ -1,11 +1,12 @@
 ---
 title: top命令
+date: 2019-2-20
+updated: 2019-2-21
 tags:
   - top
 categories:
   - note
 abbrlink: '93739e63'
-date: 2021-07-04 00:00:00
 ---
 
 

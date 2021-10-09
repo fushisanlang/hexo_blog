@@ -1,11 +1,12 @@
 ---
 title: list and tuple
+date: 2016-3-6
+updated: 2016-3-7
 tags:
   - python
 categories:
   - note
 abbrlink: aa7943f3
-date: 2021-07-04 00:00:00
 ---
 ## list and tuple
 

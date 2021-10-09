@@ -1,11 +1,12 @@
 ---
 title: centos7 安装docker-ce
+date: 2018-10-2
+updated: 2018-10-3
 tags:
   - docker
 categories:
   - note
 abbrlink: 866edd7c
-date: 2021-07-04 00:00:00
 ---
 
 ```shell

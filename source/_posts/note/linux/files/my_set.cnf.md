@@ -1,11 +1,12 @@
 ---
 title: my_set.cnf
+date: 2016-11-27
+updated: 2016-11-28
 tags:
   - mysql
 categories:
   - file
 abbrlink: cbad4e32
-date: 2021-07-04 00:00:00
 ---
 ```
 [mysqld]

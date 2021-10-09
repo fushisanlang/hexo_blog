@@ -1,9 +1,10 @@
 ---
 title: zabbix数据库表结构
+date: 2020-1-21
+updated: 2020-1-22
 categories:
   - needfix
 abbrlink: 211b3eb9
-date: 2021-07-04 00:00:00
 ---
 
 	

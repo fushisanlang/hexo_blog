@@ -1,9 +1,10 @@
 ---
 title: mysql各项配置
+date: 2016-4-24
+updated: 2016-4-25
 categories:
   - needfix
 abbrlink: 66274c52
-date: 2021-07-04 00:00:00
 ---
 ## **mysql配置文件**
 
@@ -159,7 +160,6 @@ MySQL my.cnf参数配置优化详解
 	# 你需要在服务器B上打开此项.
 	# 此选项打开在从线程上重做过的更新的日志,
 	# 并将其写入从服务器的二进制日志.
-	#log_slave_updates
 
 	# 打开全查询日志. 所有的由服务器接收到的查询 (甚至对于一个错误语法的查询)
 	# 都会被记录下来. 这对于调试非常有用, 在生产环境中常常关闭此项.
@@ -381,7 +381,6 @@ MySQL my.cnf参数配置优化详解
 	no-auto-rehash
 	
 	# 仅仅允许使用键值的 UPDATEs 和 DELETEs .
-	#safe-updates
 	[isamchk]
 	key_buffer = 2048M
 	sort_buffer_size = 2048M

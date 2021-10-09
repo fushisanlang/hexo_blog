@@ -1,12 +1,13 @@
 ---
 title: pxc 8.0安装mysql集群
+date: 2019-3-17
+updated: 2019-3-18
 tags:
   - pxc
   - mysql
 categories:
   - note
 abbrlink: 60c6c8ab
-date: 2021-07-04 00:00:00
 ---
 
 
@@ -36,7 +37,6 @@ yum install epel-*
 yum install http://www.percona.com/downloads/percona-release/redhat/0.1-3/percona-release-0.1-3.noarch.rpm -y  #这个命令安装的是5.6版本的pxc源，但是实际使用中，8.0版本也适用。主要是用来安装qpress
 
 #安装常用工具
-yum install gcc c++ zip unzip man vim telnet wget nethogs htop glances dstat traceroute lrzsz goaccess ntpdate dos2unix openssl-devel xinetd lvm2 #有些工具，比如telnet不是pxc安装所需，但是后期运维时可能会用得上，所以一并安装
 
 #安装pxc
 yum install socat libev -y

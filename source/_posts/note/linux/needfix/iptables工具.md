@@ -1,9 +1,10 @@
 ---
 title: iptables工具
+date: 2020-2-20
+updated: 2020-2-21
 categories:
   - needfix
 abbrlink: f71faba5
-date: 2021-07-04 00:00:00
 ---
     iptables -L -n #查看iptables已有策略
 	iptables -A INPUT -p tcp -dport 80 -j ACCEPT 

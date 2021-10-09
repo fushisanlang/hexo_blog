@@ -1,12 +1,13 @@
 ---
 title: nginx开启http2
+date: 2017-4-2
+updated: 2017-4-3
 tags:
   - nginx
   - http2
 categories:
   - note
 abbrlink: 49df52af
-date: 2021-07-04 00:00:00
 ---
 在编译时添加http_v2模块即可
 ```shell

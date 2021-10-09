@@ -1,11 +1,12 @@
 ---
 title: vim 分屏操作
+date: 2020-9-7
+updated: 2020-9-8
 tags:
   - vim
 categories:
   - note
 abbrlink: 71449a1e
-date: 2021-07-04 00:00:00
 ---
 
 

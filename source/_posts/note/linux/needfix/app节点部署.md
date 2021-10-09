@@ -1,9 +1,10 @@
 ---
 title: app节点部署
+date: 2016-10-20
+updated: 2016-10-21
 categories:
   - needfix
 abbrlink: '28758278'
-date: 2021-07-04 00:00:00
 ---
    * tomcat配置
    

@@ -1,11 +1,12 @@
 ---
 title: hexo Context Dump Ends 报错处理
+date: 2019-1-16
+updated: 2019-1-17
 tags:
   - hexo
 categories:
   - note
 abbrlink: bb7078cb
-date: 2021-07-04 00:00:00
 ---
 
 ```

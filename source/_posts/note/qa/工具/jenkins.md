@@ -1,5 +1,7 @@
 ---
 title: jenkins
+date: 2017-6-2
+updated: 2017-6-3
 tags:
   - qa
   - jenkins
@@ -7,7 +9,6 @@ tags:
 categories:
   - note
 abbrlink: 55c27d12
-date: 2021-07-04 00:00:00
 ---
 
 ### 一、jenkins是什么？

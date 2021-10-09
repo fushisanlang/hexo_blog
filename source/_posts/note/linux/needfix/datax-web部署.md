@@ -1,9 +1,10 @@
 ---
 title: datax-web部署
+date: 2016-12-8
+updated: 2016-12-9
 categories:
   - needfix
 abbrlink: be206806
-date: 2021-07-04 00:00:00
 ---
 # datax-web部署
 

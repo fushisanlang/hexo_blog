@@ -1,12 +1,13 @@
 ---
 title: django学习(4)-创建其他网页
+date: 2017-11-17
+updated: 2017-11-18
 tags:
   - python
   - django
 categories:
   - note
 abbrlink: 3e6a07
-date: 2021-07-04 00:00:00
 ---
 
 # django学习(4)-创建其他网页

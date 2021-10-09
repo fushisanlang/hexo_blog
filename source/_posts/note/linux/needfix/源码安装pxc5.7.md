@@ -1,9 +1,10 @@
 ---
 title: 源码安装pxc5
+date: 2018-10-11
+updated: 2018-10-12
 categories:
   - needfix
 abbrlink: 89adca3d
-date: 2021-07-04 00:00:00
 ---
 # 源码安装pxc5.7
 
@@ -317,7 +318,6 @@ relay-log-info-repository=TABLE
 binlog-checksum=NONE
 log-bin=mysql-bin
 max-binlog-size=128M
-log_slave_updates
 expire_logs_days=3
 sync_binlog=1
 binlog_cache_size = 4M

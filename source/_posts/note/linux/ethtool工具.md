@@ -1,11 +1,12 @@
 ---
 title: ethtool工具.md
+date: 2019-12-12
+updated: 2019-12-13
 tags:
   - ethtool
 categories:
   - note
 abbrlink: 1a0fa91d
-date: 2021-07-04 00:00:00
 ---
  ## **ethtools**
  

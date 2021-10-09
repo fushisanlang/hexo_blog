@@ -1,12 +1,13 @@
 ---
 title: 编译安装erlang并配置rabbitmq集群
+date: 2020-2-2
+updated: 2020-2-3
 tags:
   - rabbitmq
   - erlang
 categories:
   - note
 abbrlink: e57a84c1
-date: 2021-07-04 00:00:00
 ---
 
 
@@ -25,7 +26,6 @@ date: 2021-07-04 00:00:00
 ```shell
 yum groupinstall "Development Tools" -y
 yum install epel-release
-yum install gcc c++ zip unzip man vim telnet wget nethogs htop glances dstat traceroute lrzsz goaccess ntpdate dos2unix openssl-devel xinetd lvm2
 ```
 
 * ### 配置系统最大文件数

@@ -1,11 +1,12 @@
 ---
 title: cdn
+date: 2020-7-18
+updated: 2020-7-19
 tags:
   - cdn
 categories:
   - note
 abbrlink: 1e4b4e97
-date: 2021-07-04 00:00:00
 ---
 
 # 准备工作

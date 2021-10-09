@@ -1,9 +1,10 @@
 ---
 title: freeswitch安装
+date: 2017-1-23
+updated: 2017-1-24
 categories:
   - needfix
 abbrlink: 77980b25
-date: 2021-07-04 00:00:00
 ---
 # freeswitch 安装
 

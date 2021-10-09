@@ -1,11 +1,12 @@
 ---
 title: iptables
+date: 2017-11-19
+updated: 2017-11-20
 tags:
   - iptables
 categories:
   - note
 abbrlink: 736b1750
-date: 2021-07-04 00:00:00
 ---
 
 ## 概述
@@ -218,5 +219,4 @@ iptables -I OUTPUT -p tcp --dport 80 -m time --monthdays 6,7 -j REJECT
 
 iptables -I OUTPUT -p tcp --dport 80 -m time --weekdays 5 --monthdays 6,7 -j REJECT
 
-iptables -I OUTPUT -p tcp --dport 80 -m time --datestart 2019-08-01 --datestop 2019-09-01 -j REJECT
 ```

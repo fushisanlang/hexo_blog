@@ -1,11 +1,12 @@
 ---
 title: centos 6.5使用ss
+date: 2019-9-25
+updated: 2019-9-26
 tags:
   - ss
 categories:
   - note
 abbrlink: 5752adde
-date: 2021-07-04 00:00:00
 ---
 
 ```shell

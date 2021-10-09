@@ -1,11 +1,12 @@
 ---
 title: for and while
+date: 2018-6-23
+updated: 2018-6-24
 tags:
   - python
 categories:
   - note
 abbrlink: e26db0d4
-date: 2021-07-04 00:00:00
 ---
 
 ## for and while

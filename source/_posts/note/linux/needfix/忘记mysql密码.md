@@ -1,9 +1,10 @@
 ---
 title: 忘记mysql密码
+date: 2020-5-16
+updated: 2020-5-17
 categories:
   - needfix
 abbrlink: 23a737cb
-date: 2021-07-04 00:00:00
 ---
 确保服务器安全  
 最好断开网络 本机操作

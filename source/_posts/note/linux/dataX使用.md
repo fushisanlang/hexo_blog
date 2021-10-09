@@ -1,12 +1,13 @@
 ---
 title: dataX使用
+date: 2018-6-2
+updated: 2018-6-3
 tags:
   - dataX
   - DB
 categories:
   - note
 abbrlink: 5585c728
-date: 2021-07-04 00:00:00
 ---
 
 
@@ -76,7 +77,6 @@ python {YOUR_DATAX_HOME}/bin/datax.py {YOUR_DATAX_HOME}/job/job.json
 | column    | 要同步的列名           | 列名可以不对应，但是类型和总的个数要一致       |
 | preSql    | 写入前执行的语句       | 数组，比如清空表等                             |
 | postSql   | 写入后执行的语句       | 数组                                           |
-| writeMode | 写入方式，默认为insert | insert/replace/update                          |
 
 
 

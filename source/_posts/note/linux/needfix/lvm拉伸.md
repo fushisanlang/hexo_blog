@@ -1,9 +1,10 @@
 ---
 title: lvm拉伸
+date: 2019-11-18
+updated: 2019-11-19
 categories:
   - needfix
 abbrlink: 695bf1f7
-date: 2021-07-04 00:00:00
 ---
 
     fdisk -cu /dev/vdb

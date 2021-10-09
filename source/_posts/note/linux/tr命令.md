@@ -1,11 +1,12 @@
 ---
 title: tr 命令权限列表
+date: 2018-7-8
+updated: 2018-7-9
 tags:
   - tr
 categories:
   - note
 abbrlink: '97205115'
-date: 2021-07-04 00:00:00
 ---
 
 ## tr 命令

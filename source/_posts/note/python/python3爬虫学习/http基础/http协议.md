@@ -1,6 +1,7 @@
 ---
-date: 2021-07-09
 title: http协议
+date: 2019-5-21
+updated: 2019-5-22
 tags:
   - python
   - 爬虫
@@ -99,6 +100,8 @@ Content-Type:multipart/form-data; boundary=----WebKitFormBoundaryrGKCBY7qhFd3Trw
 Content-Disposition: form-data; name="text"
 
 title
+date: 2019-5-21
+updated: 2019-5-22
 
 ------WebKitFormBoundaryrGKCBY7qhFd3TrwA
 
@@ -274,10 +277,14 @@ HTTP Pipelining（管线化）是**将多个 HTTP 请求整批提交的技术**�
   例如，一论坛网站的发贴是通过 GET 请求访问，点击发贴之后 JS 把发贴内容拼接成目标 URL 并访问：
 
   http://example.com/bbs/create_post.php?title=标题&content=内容
+date: 2019-5-21
+updated: 2019-5-22
 
   那么，我们只需要在论坛中发一帖，包含一链接：
 
   http://example.com/bbs/create_post.php?title=我是脑残&content=哈哈
+date: 2019-5-21
+updated: 2019-5-22
 
   只要有用户点击了这个链接，那么他们的帐户就会在不知情的情况下发布了这一帖子。可能这只是个恶作剧，但是既然发贴的请求可以伪造，那么删帖、转帐、改密码、发邮件全都可以伪造。
 

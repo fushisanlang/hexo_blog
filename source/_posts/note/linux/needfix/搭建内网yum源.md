@@ -1,9 +1,10 @@
 ---
 title: 搭建内网yum源
+date: 2019-12-1
+updated: 2019-12-2
 categories:
   - needfix
 abbrlink: 8831909b
-date: 2021-07-04 00:00:00
 ---
 ## 基于epel源搭建内网yum源
 
@@ -34,12 +35,10 @@ date: 2021-07-04 00:00:00
 #创建用于存放软件包的目录
 mkdir -p /yum_data/epel/6/x86_64/
 mkdir -p /yum_data/centos/6/os/x86_64/ 
-mkdir -p /yum_data/centos/6/updates/x86_64/
 
 #同步epel源中的软件包，本文档使用的是ustc的epel源
 rsync -av rsync://mirrors.ustc.edu.cn/epel/6/x86_64/ /yum_data/epel/6/x86_64/
 rsync -av rsync://mirrors.ustc.edu.cn/centos/6/os/x86_64/ /yum_data/centos/6/os/x86_64/ 
-rsync -av rsync://mirrors.ustc.edu.cn/centos/6/updates/x86_64/ /yum_data/centos/6/updates/x86_64/
 #上述同步过程中，可能会有无法连接或者连接数超限之类的报错，多试几次即可
 ```
 
@@ -89,9 +88,6 @@ vim yum.repo #注意修改IP
 	baseurl=http://1.2.3.4/yum_data/centos/$releasever/os/$basearch/
 	gpgcheck=0
 
-	[updates]
-	name=Self-built updates source base on ustc
-	baseurl=http://1.2.3.4/yum_data/centos/$releasever/updates/$basearch/
 	gpgcheck=0
 
 	[epel]

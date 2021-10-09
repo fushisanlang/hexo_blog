@@ -1,11 +1,12 @@
 ---
 title: hexo-1
+date: 2017-1-19
+updated: 2017-1-20
 tags:
   - hexo
 categories:
   - bilibili
 abbrlink: 98438a12
-date: 2021-07-04 00:00:00
 ---
 
 ## 下载git bash

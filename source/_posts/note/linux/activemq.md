@@ -1,11 +1,12 @@
 ---
 title: activeMQ安装及密码配置
+date: 2017-11-6
+updated: 2017-11-7
 tags:
   - activeMQ
 categories:
   - note
 abbrlink: 8c648696
-date: 2021-07-04 00:00:00
 ---
 
 #### 1. 什么是activeMQ   

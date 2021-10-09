@@ -1,12 +1,13 @@
 ---
 title: awk
+date: 2019-8-11
+updated: 2019-8-12
 tags:
   - awk
   - shell
 categories:
   - note
 abbrlink: c4a2fe4
-date: 2021-07-04 00:00:00
 ---
 
 ###  awk

@@ -1,11 +1,12 @@
 ---
 title: hadoop
+date: 2017-8-6
+updated: 2017-8-7
 tags:
   - hadoop
 categories:
   - note
 abbrlink: b4989874
-date: 2021-07-04 00:00:00
 ---
 
 

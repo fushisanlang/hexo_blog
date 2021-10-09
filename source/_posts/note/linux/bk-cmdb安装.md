@@ -1,11 +1,12 @@
 ---
 title: bk-cmdb安装
+date: 2019-3-27
+updated: 2019-3-28
 tags:
   - bk-cmdb
 categories:
   - note
 abbrlink: ca142a6
-date: 2021-07-04 00:00:00
 ---
 
 [github地址](https://github.com/Tencent/bk-cmdb)

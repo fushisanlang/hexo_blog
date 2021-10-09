@@ -1,12 +1,13 @@
 ---
 title: NERD tree树形目录插件
+date: 2020-9-18
+updated: 2020-9-19
 tags:
   - code
   - vim
 categories:
   - note
 abbrlink: 516ec693
-date: 2021-07-04 00:00:00
 ---
 
 * ### 插件介绍

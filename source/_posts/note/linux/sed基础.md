@@ -1,11 +1,12 @@
 ---
 title: sed 基础
+date: 2019-1-7
+updated: 2019-1-8
 tags:
   - sed
 categories:
   - note
 abbrlink: e2055978
-date: 2021-07-04 00:00:00
 ---
 
 

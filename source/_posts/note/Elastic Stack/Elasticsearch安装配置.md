@@ -1,12 +1,13 @@
 ---
 title: Elasticsearch安装配置
+date: 2020-2-12
+updated: 2020-2-13
 tags:
   - Elasticsearch
   - elk
 categories:
   - note
 abbrlink: b0625b51
-date: 2021-07-04 00:00:00
 ---
 # Elasticsearch安装配置
 
@@ -97,7 +98,6 @@ curl -XGET "127.0.0.1:9200"
         "build_flavor" : "default",
         "build_type" : "rpm",
         "build_hash" : "1c1faf1",
-        "build_date" : "2019-09-06T14:40:30.409026Z",
         "build_snapshot" : false,
         "lucene_version" : "8.1.0",
         "minimum_wire_compatibility_version" : "6.8.0",

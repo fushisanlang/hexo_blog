@@ -1,5 +1,7 @@
 ---
 title: Jenkins备份及多节点
+date: 2020-10-25
+updated: 2020-10-26
 tags:
   - qa
   - jenkins
@@ -7,7 +9,6 @@ tags:
 categories:
   - note
 abbrlink: a9c98372
-date: 2021-07-04 00:00:00
 ---
 
 ### 一、Jenkins备份及多节点

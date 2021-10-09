@@ -1,5 +1,7 @@
 ---
 title: flask笔记-使用mysql连接池
+date: 2016-2-3
+updated: 2016-2-4
 tags:
   - python
   - flask
@@ -7,7 +9,6 @@ tags:
 categories:
   - note
 abbrlink: d0a690e1
-date: 2021-07-04 00:00:00
 ---
 
 # flask笔记-使用mysql连接池
@@ -81,13 +82,11 @@ def insert_operaction(tablename,keys,valuses):
     conn.close() #注意这里的关闭连接，如果不关闭会导致连接不释放。
     return
 
-def update_operaction(tablename,update_str,key_str="1"):
     conn = db_pool.get_connection()
     conn.start_transaction()
     cursor = conn.cursor()
     sql_parm1 = "UPDATE "
     sql_parm2 = tablename
-    sql_parm3 = " SET " + update_str +" WHERE "
     sql_parm4 = key_str + ";"
     sql = sql_parm1 + sql_parm2 + sql_parm3 + sql_parm4
     print(sql)

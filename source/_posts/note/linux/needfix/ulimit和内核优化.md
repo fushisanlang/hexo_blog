@@ -1,9 +1,10 @@
 ---
 title: ulimit和内核优化
+date: 2017-9-1
+updated: 2017-9-2
 categories:
   - needfix
 abbrlink: 1fe2886a
-date: 2021-07-04 00:00:00
 ---
 ulimit
 

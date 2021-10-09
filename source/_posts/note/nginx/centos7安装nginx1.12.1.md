@@ -1,11 +1,12 @@
 ---
 title: centos 7 安装nginx1.12.1
+date: 2018-8-6
+updated: 2018-8-7
 tags:
   - nginx
 categories:
   - note
 abbrlink: '51966423'
-date: 2021-07-04 00:00:00
 ---
 
 ## 1、所需模块
@@ -35,7 +36,6 @@ date: 2021-07-04 00:00:00
 ## 3、Nginx安装步骤
 ### 3.1、安装系统工具
 ```shell
-[root@localhost ~]# yum install vim telnet wget nethogs htop glances dstat traceroute lrzsz goaccess ntpdate dos2unix openssl-devel tcpdump lrzsz fio -y
 ```
 
 ### 3.2、安装编译开发组件

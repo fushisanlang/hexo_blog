@@ -1,11 +1,12 @@
 ---
 title: Go 指南
+date: 2017-1-18
+updated: 2017-1-19
 tags:
   - go
 categories:
   - note
 abbrlink: 116628cf
-date: 2021-07-04 00:00:00
 ---
 
 

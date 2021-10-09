@@ -1,16 +1,19 @@
 ---
 title: index.jsp
+date: 2020-4-13
+updated: 2020-4-14
 tags:
   - mdphp
 categories:
   - file
 abbrlink: 6c70013b
-date: 2021-07-04 00:00:00
 ---
 ```jsp
 <%@ page contentType="text/html; charset=GBK" %>
 <%@ page import="java.util.*" %>
 <html><head><title>Cluster App Test</title></head>
+date: 2020-4-13
+updated: 2020-4-14
 <body>
 Server Info:
 <%

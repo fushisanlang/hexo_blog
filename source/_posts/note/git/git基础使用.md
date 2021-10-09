@@ -1,11 +1,12 @@
 ---
 title: git基础
+date: 2016-4-11
+updated: 2016-4-12
 tags:
   - git
 categories:
   - note
 abbrlink: 9891ebc8
-date: 2021-07-04 00:00:00
 ---
 
 ```shell

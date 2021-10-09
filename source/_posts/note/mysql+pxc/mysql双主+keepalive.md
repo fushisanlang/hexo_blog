@@ -1,12 +1,13 @@
 ---
 title: mysql双主+keepalived
+date: 2016-12-22
+updated: 2016-12-23
 tags:
   - mysql
   - keepalived
 categories:
   - note
 abbrlink: 812e902b
-date: 2021-07-04 00:00:00
 ---
 
 
@@ -64,8 +65,6 @@ vim /etc/my.cnf
 	auto-increment-offset = 1    
 	slave-skip-errors = all      
 
-mkdir -p /date/mysql
-chown mysql.mysql /date/mysql 
 systemctl restart mysql #修改配置后重启服务
 
 #yum安装后，mysql5.7的初始密码保存在mysql的error日志中。默认位置为/var/log/mysqld.log

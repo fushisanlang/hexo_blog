@@ -1,11 +1,12 @@
 ---
 title: Sysbench安装与使用
+date: 2017-10-1
+updated: 2017-10-2
 tags:
   - Sysbench安装与使用
 categories:
   - note
 abbrlink: 72fdfee0
-date: 2021-07-04 00:00:00
 ---
 
 
@@ -42,7 +43,6 @@ General options:            # 通用选项
   --rate=N                   指定数量多少事件(事务)平均每秒钟应该执行的所有线程。0(默认)意味着无限的速率,即事件尽快执行
   --report-interval=N          以秒为单位定期报告具有指定间隔的中间统计信息， 0 禁用中间报告，默认为0
   --debug[=on|off]             打印更多 debug 信息 [off]
-  --validate[=on|off]            尽可能执行验证检查 [off]
   --help[=on|off]               显示帮助信息并退出 [off]
   --version[=on|off]             显示版本信息并退出 [off]
   --config-file=FILENAME        包含命令行选项的文件
@@ -93,8 +93,6 @@ total 136
 -rwxr-xr-x 1 root root  1265 Jan 14 18:42 oltp_point_select.lua
 -rwxr-xr-x 1 root root  1649 Jan 14 18:42 oltp_read_only.lua
 -rwxr-xr-x 1 root root  1824 Jan 14 18:42 oltp_read_write.lua
--rwxr-xr-x 1 root root  1118 Jan 14 18:42 oltp_update_index.lua
--rwxr-xr-x 1 root root  1127 Jan 14 18:42 oltp_update_non_index.lua
 -rwxr-xr-x 1 root root  1440 Jan 14 18:42 oltp_write_only.lua
 -rwxr-xr-x 1 root root  1919 Jan 14 18:42 select_random_points.lua
 -rwxr-xr-x 1 root root  2118 Jan 14 18:42 select_random_ranges.lua

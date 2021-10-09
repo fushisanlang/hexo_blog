@@ -1,11 +1,12 @@
 ---
 title: centos6.7安装zabbix4
+date: 2019-4-26
+updated: 2019-4-27
 tags:
   - zabbix
 categories:
   - note
 abbrlink: 14dafde
-date: 2021-07-04 00:00:00
 ---
 
 
@@ -20,7 +21,6 @@ date: 2021-07-04 00:00:00
 rpm -ivh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 yum groupinstall "Development Tools" -y
 yum install gcc c++ zip unzip man vim telnet wget nethogs htop \ 
-glances dstat traceroute lrzsz goaccess ntpdate dos2unix \
 openssl-devel xinetd lvm2
 ```
 
@@ -156,7 +156,6 @@ vim /usr/local/php/etc/php.ini
     post_max_size = 16M
     max_execution_time = 300
     max_input_time = 300
-    date.timezone = Asia/Shanghai
     always_populate_raw_post_data = -1
 
 /etc/init.d/httpd restart

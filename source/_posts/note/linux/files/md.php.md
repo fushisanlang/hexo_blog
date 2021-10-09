@@ -1,11 +1,12 @@
 ---
 title: md.php
+date: 2019-1-3
+updated: 2019-1-4
 tags:
   - mdphp
 categories:
   - file
 abbrlink: 80274c64
-date: 2021-07-04 00:00:00
 ---
 ```php
 <?php
@@ -43,6 +44,8 @@ $request_array['mode'] = 'markdown';
 $html_article_body = curl_raw($render_url, json_encode($request_array));
 
 echo '<!DOCTYPE html><html><head><meta charset="utf-8"><title>' . $markdown_filename . '</title><link rel="stylesheet" href="/md.css" type="text/css" /></head>';
+date: 2019-1-3
+updated: 2019-1-4
 echo '<article class="markdown-body">';
 echo $html_article_body;
 echo '</article></body></html>';

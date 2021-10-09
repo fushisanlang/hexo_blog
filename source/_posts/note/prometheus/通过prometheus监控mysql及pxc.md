@@ -1,5 +1,7 @@
 ---
 title: 通过prometheus监控mysql及pxc
+date: 2019-8-18
+updated: 2019-8-19
 tags:
   - prometheus
   - 监控
@@ -8,7 +10,6 @@ tags:
 categories:
   - note
 abbrlink: 12df73bc
-date: 2021-07-04 00:00:00
 ---
 
 
