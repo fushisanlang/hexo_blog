@@ -1,13 +1,14 @@
 ---
-date: 2021-07-04
 title: skywalking结合alertmanager实现监控及报警
-tags :
- - alertmanager
- - skywalking
- - 监控
- - 报警
+tags:
+  - alertmanager
+  - skywalking
+  - 监控
+  - 报警
 categories:
- - note
+  - note
+abbrlink: 4844b561
+date: 2021-07-04 00:00:00
 ---
 
 ## 监控说明

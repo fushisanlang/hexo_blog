@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: iptables
-tags :
- - iptables
+tags:
+  - iptables
 categories:
- - note 
+  - note
+abbrlink: 736b1750
+date: 2021-07-04 00:00:00
 ---
 
 ## 概述

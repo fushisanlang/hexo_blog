@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: django学习(1)-创建项目
-tags :
- - python
- - django
+tags:
+  - python
+  - django
 categories:
- - note
+  - note
+abbrlink: 7d5ad592
+date: 2021-07-04 00:00:00
 ---
 
 # django学习(1)-创建项目

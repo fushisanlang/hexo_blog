@@ -1,13 +1,14 @@
 ---
-date: 2021-07-04
 title: lnmp搭建dz论坛
-tags :
- - lnmp
- - nginx
- - mysql
- - php
+tags:
+  - lnmp
+  - nginx
+  - mysql
+  - php
 categories:
- - note
+  - note
+abbrlink: 37b47781
+date: 2021-07-04 00:00:00
 ---
 
 

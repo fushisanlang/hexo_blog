@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: Go 指南(三)
-tags :
- - go
+tags:
+  - go
 categories:
- - note
+  - note
+abbrlink: 1c703d28
+date: 2021-07-04 00:00:00
 ---
 # Go 指南
 

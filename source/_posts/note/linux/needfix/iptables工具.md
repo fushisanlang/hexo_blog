@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
     iptables -L -n #查看iptables已有策略
 	iptables -A INPUT -p tcp -dport 80 -j ACCEPT 
 	#打开80端口的权限（appche服务的默认端口）

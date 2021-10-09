@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
-title: github拉取 
-tags :
- - git
+title: github拉取
+tags:
+  - git
 categories:
- - note
+  - note
+abbrlink: 70220f20
+date: 2021-07-04 00:00:00
 ---
 
 

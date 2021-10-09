@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
     cd /soft  #将软件包放在此目录
     tar xzvf haproxy-1.7.5.tar.gz
     cd /soft/haproxy-1.7.5/

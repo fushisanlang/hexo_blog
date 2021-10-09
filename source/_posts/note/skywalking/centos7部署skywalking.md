@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: centos7部署skywalking
-tags :
- - nginx
- - skywalking
+tags:
+  - nginx
+  - skywalking
 categories:
- - note
+  - note
+abbrlink: c82222f3
+date: 2021-07-04 00:00:00
 ---
 ##版本介绍
 软件|版本

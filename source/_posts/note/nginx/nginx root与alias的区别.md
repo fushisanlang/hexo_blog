@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: nginx root与alias的区别
-tags :
- - nginx
+tags:
+  - nginx
 categories:
- - note 
+  - note
+abbrlink: 90ea0300
+date: 2021-07-04 00:00:00
 ---
 
 # nginx root与alias的区别

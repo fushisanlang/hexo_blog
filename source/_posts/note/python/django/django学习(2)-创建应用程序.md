@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: django学习(2)-创建应用程序
-tags :
- - python
- - django
+tags:
+  - python
+  - django
 categories:
- - note
+  - note
+abbrlink: 163ad583
+date: 2021-07-04 00:00:00
 ---
 
 # django学习(2)-创建应用程序

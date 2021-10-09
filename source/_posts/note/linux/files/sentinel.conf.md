@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: sentinel.conf
-tags :
- - redis
- - sentinel
+tags:
+  - redis
+  - sentinel
 categories:
- - file
+  - file
+abbrlink: 9de43bc8
+date: 2021-07-04 00:00:00
 ---
 
 ```

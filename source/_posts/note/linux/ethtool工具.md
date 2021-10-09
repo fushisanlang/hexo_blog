@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: ethtool工具.md
-tags :
- - ethtool
+tags:
+  - ethtool
 categories:
- - note 
+  - note
+abbrlink: 1a0fa91d
+date: 2021-07-04 00:00:00
 ---
  ## **ethtools**
  

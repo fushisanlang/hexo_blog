@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: sed
-tags :
- - sed
- - shell
+tags:
+  - sed
+  - shell
 categories:
- - note
+  - note
+abbrlink: fba335b8
+date: 2021-07-04 00:00:00
 ---
 
 ###  sed

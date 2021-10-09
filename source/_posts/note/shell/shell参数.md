@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: shell参数
-tags :
- - shell
+tags:
+  - shell
 categories:
- - note
+  - note
+abbrlink: 4b862417
+date: 2021-07-04 00:00:00
 ---
 
 ### shell脚本常用参数

@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: 编译安装erlang并配置rabbitmq集群
-tags :
- - rabbitmq
- - erlang
+tags:
+  - rabbitmq
+  - erlang
 categories:
- - note
+  - note
+abbrlink: e57a84c1
+date: 2021-07-04 00:00:00
 ---
 
 

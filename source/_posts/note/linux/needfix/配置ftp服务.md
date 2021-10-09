@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
     vim /etc/sysconfig/selinux
         SELINUX=disabled
     reboot

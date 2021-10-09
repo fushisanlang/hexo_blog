@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: Elastic Stack-基础概念
-tags :
- - Elastic Stack
- - elk
+tags:
+  - Elastic Stack
+  - elk
 categories:
- - note
+  - note
+abbrlink: bd055b5c
+date: 2021-07-04 00:00:00
 ---
 
 # Elastic Stack-基础概念

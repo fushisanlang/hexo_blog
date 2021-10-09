@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: nginx各项配置说明
-tags :
- - nginx
- - need fix
+tags:
+  - nginx
+  - need fix
 categories:
- - note 
+  - note
+abbrlink: 60be2fb7
+date: 2021-07-04 00:00:00
 ---
 
 /usr/local/nginx/conf   

@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: Elasticsearch安装配置
-tags :
- - Elasticsearch
- - elk
+tags:
+  - Elasticsearch
+  - elk
 categories:
- - note
+  - note
+abbrlink: b0625b51
+date: 2021-07-04 00:00:00
 ---
 # Elasticsearch安装配置
 

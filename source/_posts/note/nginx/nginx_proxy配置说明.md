@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: nginx_proxy配置说明
-tags :
- - nginx
- - nginx_proxy
+tags:
+  - nginx
+  - nginx_proxy
 categories:
- - note 
+  - note
+abbrlink: cd6208b4
+date: 2021-07-04 00:00:00
 ---
 
 ```

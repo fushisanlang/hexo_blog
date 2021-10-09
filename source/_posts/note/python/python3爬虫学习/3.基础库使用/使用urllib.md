@@ -1,11 +1,12 @@
 ---
 title: urllib
-tags :
- - python
- - 爬虫
- - urllib
+tags:
+  - python
+  - 爬虫
+  - urllib
 categories:
- - note
+  - note
+abbrlink: 4e81241b
 ---
 
 # 使用urllib

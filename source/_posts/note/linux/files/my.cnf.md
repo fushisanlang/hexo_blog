@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: my.cnf
-tags :
- - mysql
+tags:
+  - mysql
 categories:
- - file
+  - file
+abbrlink: a4b910a9
+date: 2021-07-04 00:00:00
 ---
 ```
 [mysqld]

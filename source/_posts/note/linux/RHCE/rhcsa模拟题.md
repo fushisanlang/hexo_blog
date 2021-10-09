@@ -1,12 +1,13 @@
-﻿---
-date: 2021-07-04
+---
 title: rhcsa模拟题
-tags :
- - rhcsa
- - exam
- - need fix
+tags:
+  - rhcsa
+  - exam
+  - need fix
 categories:
- - note 
+  - note
+abbrlink: 7ee59806
+date: 2021-07-04 00:00:00
 ---
 
 

@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 # linux 安装 python3
 
 *[软件源](https://www.python.org/ftp/python)*

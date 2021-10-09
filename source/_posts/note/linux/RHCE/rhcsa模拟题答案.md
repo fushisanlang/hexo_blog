@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: rhcsa模拟题答案
-tags :
- - rhcsa
- - exam
+tags:
+  - rhcsa
+  - exam
 categories:
- - note 
+  - note
+abbrlink: 71e7f679
+date: 2021-07-04 00:00:00
 ---
 
 # rhcsa 

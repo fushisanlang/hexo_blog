@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: screen命令
-tags :
- - screen
+tags:
+  - screen
 categories:
- - note
+  - note
+abbrlink: 7b6b1753
+date: 2021-07-04 00:00:00
 ---
 
 

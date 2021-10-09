@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: git基础
-tags :
- - git
+tags:
+  - git
 categories:
- - note
+  - note
+abbrlink: 9891ebc8
+date: 2021-07-04 00:00:00
 ---
 
 ```shell

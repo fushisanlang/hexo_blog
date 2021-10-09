@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: 搭建redis-5集群
-tags :
- - redis cluster
- - redis
+tags:
+  - redis cluster
+  - redis
 categories:
- - note
+  - note
+abbrlink: a7ecd64e
+date: 2021-07-04 00:00:00
 ---
 
 ## 1.  环境说明

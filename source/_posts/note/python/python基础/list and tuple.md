@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: list and tuple
-tags :
- - python
+tags:
+  - python
 categories:
- - note
+  - note
+abbrlink: aa7943f3
+date: 2021-07-04 00:00:00
 ---
 ## list and tuple
 

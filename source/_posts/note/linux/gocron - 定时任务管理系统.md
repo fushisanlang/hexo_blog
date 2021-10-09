@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: gocron - 定时任务管理系统
-tags :
- - gocron
+tags:
+  - gocron
 categories:
- - note 
+  - note
+abbrlink: 2356ccf6
+date: 2021-07-04 00:00:00
 ---
 
 ### 项目简介

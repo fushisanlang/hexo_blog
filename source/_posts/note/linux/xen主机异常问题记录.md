@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: xen主机异常问题记录
-tags :
- - xen
+tags:
+  - xen
 categories:
- - note
+  - note
+abbrlink: bafb4095
+date: 2021-07-04 00:00:00
 ---
 
 

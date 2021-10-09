@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: django学习(3)-创建网页
-tags :
- - python
- - django
+tags:
+  - python
+  - django
 categories:
- - note
+  - note
+abbrlink: 8a12c2be
+date: 2021-07-04 00:00:00
 ---
 
 # django学习(3)-创建网页

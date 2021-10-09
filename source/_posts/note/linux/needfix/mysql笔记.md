@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 ```sql
 /* 启动MySQL */
 net start mysql

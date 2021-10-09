@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: Centos6.7设置基于GoogleAuthenticator的二次验证ssh登陆
-tags :
- - ssh
- - GoogleAuthenticator
+tags:
+  - ssh
+  - GoogleAuthenticator
 categories:
- - note
+  - note
+abbrlink: 6c80da9d
+date: 2021-07-04 00:00:00
 ---
 
 * 环境介绍

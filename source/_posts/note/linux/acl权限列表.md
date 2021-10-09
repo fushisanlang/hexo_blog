@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: acl 权限列表
-tags :
- - acl
+tags:
+  - acl
 categories:
- - note 
+  - note
+abbrlink: e364e432
+date: 2021-07-04 00:00:00
 ---
 
 * 什么是权限列表

@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: md.php
-tags :
- - mdphp
+tags:
+  - mdphp
 categories:
- - file
+  - file
+abbrlink: 80274c64
+date: 2021-07-04 00:00:00
 ---
 ```php
 <?php

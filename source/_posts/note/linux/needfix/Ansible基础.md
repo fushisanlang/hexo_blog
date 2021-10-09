@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 # Ansible基础
 
 

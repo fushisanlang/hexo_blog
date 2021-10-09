@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: haproxy.cfg
-tags :
- - haproxy
+tags:
+  - haproxy
 categories:
- - file
+  - file
+abbrlink: '25235857'
+date: 2021-07-04 00:00:00
 ---
 
 ```

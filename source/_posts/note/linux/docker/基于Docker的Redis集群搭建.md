@@ -1,12 +1,13 @@
 ---
-date: 2021-07-04
 title: 基于Docker的Redis集群搭建
-tags :
- - docker
- - redis cluster
- - redis
+tags:
+  - docker
+  - redis cluster
+  - redis
 categories:
- - note
+  - note
+abbrlink: 4052dcda
+date: 2021-07-04 00:00:00
 ---
 
 # 镜像版本

@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 
 	
 	mysql> show tables;

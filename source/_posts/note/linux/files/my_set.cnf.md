@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: my_set.cnf
-tags :
- - mysql
+tags:
+  - mysql
 categories:
- - file
+  - file
+abbrlink: cbad4e32
+date: 2021-07-04 00:00:00
 ---
 ```
 [mysqld]

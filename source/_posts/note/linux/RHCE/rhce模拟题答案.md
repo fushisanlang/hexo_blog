@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: rhce模拟题答案
-tags :
- - rhce
- - exam
+tags:
+  - rhce
+  - exam
 categories:
- - note 
+  - note
+abbrlink: f1d60fc5
+date: 2021-07-04 00:00:00
 ---
 
 1.selinux

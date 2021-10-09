@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: grafana 安装
-tags :
- - grafana
- - 监控
+tags:
+  - grafana
+  - 监控
 categories:
- - note 
+  - note
+abbrlink: 362b0ed6
+date: 2021-07-04 00:00:00
 ---
 
 

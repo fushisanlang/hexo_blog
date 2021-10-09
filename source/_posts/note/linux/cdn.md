@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: cdn
-tags :
- - cdn
+tags:
+  - cdn
 categories:
- - note
+  - note
+abbrlink: 1e4b4e97
+date: 2021-07-04 00:00:00
 ---
 
 # 准备工作

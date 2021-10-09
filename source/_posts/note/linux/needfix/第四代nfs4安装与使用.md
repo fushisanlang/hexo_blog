@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 ### 环境：
 
  server：192.168.1.144 Linux version 2.6.18-308.el5PAE   

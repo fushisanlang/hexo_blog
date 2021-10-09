@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: nginx location 配置及匹配规则
-tags :
- - nginx
- - location
+tags:
+  - nginx
+  - location
 categories:
- - note 
+  - note
+abbrlink: b7352f98
+date: 2021-07-04 00:00:00
 ---
 # nginx location 配置及匹配规则
 

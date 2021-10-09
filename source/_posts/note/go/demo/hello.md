@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: hello
-tags :
- - go
+tags:
+  - go
 categories:
- - demo
+  - demo
+abbrlink: 3610a686
+date: 2021-07-04 00:00:00
 ---
 
 ```golang

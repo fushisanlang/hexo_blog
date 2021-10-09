@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: prometheus（普罗米修斯）入门使用
-tags :
- - prometheus
- - 监控
+tags:
+  - prometheus
+  - 监控
 categories:
- - note 
+  - note
+abbrlink: 2cc11846
+date: 2021-07-04 00:00:00
 ---
 
 # prometheus（普罗米修斯）入门使用

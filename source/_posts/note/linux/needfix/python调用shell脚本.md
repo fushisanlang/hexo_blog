@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 ## python调用shell脚本
 
 python调用Shell脚本，有两种方法：os.system(cmd)或os.popen(cmd),前者返回值是脚本的退出状态码，后者的返回值是脚本执行过程中的输出内容。实际使用时视需求情况而选择。 

@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: ngrok
-tags :
- - ngrok
- - 内网穿透
+tags:
+  - ngrok
+  - 内网穿透
 categories:
- - note
+  - note
+abbrlink: 29a1820d
+date: 2021-07-04 00:00:00
 ---
 
 ### 软件介绍

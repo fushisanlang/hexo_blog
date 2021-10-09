@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: sed 基础
-tags :
- - sed
+tags:
+  - sed
 categories:
- - note
+  - note
+abbrlink: e2055978
+date: 2021-07-04 00:00:00
 ---
 
 

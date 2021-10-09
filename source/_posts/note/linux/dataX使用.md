@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: dataX使用
-tags :
- - dataX
- - DB
+tags:
+  - dataX
+  - DB
 categories:
- - note
+  - note
+abbrlink: 5585c728
+date: 2021-07-04 00:00:00
 ---
 
 

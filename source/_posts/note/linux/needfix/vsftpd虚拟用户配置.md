@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 ## vsftpd虚拟用户配置 
 
 * 安装vsftpd    

@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: xenserver 创建本地iso库
-tags :
- - xenserver
+tags:
+  - xenserver
 categories:
- - note
+  - note
+abbrlink: 5aa581e
+date: 2021-07-04 00:00:00
 ---
 ### 创建
 

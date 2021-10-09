@@ -1,11 +1,12 @@
 ---
 title: http协议
-tags :
- - python
- - 爬虫
- - http
+tags:
+  - python
+  - 爬虫
+  - http
 categories:
- - note
+  - note
+abbrlink: '54593785'
 ---
 
 

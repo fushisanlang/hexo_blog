@@ -1,6 +1,6 @@
-
-date: 2021-07-04
-
+---
+abbrlink: '0'
+date: 2021-07-04 00:00:00
 ---
 title: redis安装与配置
 tags :

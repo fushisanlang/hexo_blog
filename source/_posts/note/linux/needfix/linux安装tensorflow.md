@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 # linux 安装 tensorflow
 
 ### 一、安装python3

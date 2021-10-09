@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: manjaro 20 i3环境部署记录
-tags :
- - manjaro
- - i3
+tags:
+  - manjaro
+  - i3
 categories:
- - note 
+  - note
+abbrlink: cedfcbd1
+date: 2021-07-04 00:00:00
 ---
 ### 配置pacman，生成可用中国镜像
 

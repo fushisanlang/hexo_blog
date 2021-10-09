@@ -1,12 +1,13 @@
 ---
-date: 2021-07-04
 title: ETL工具datax kettle对比
-tags :
- - datax
- - kettle
- - ETL
+tags:
+  - datax
+  - kettle
+  - ETL
 categories:
- - note
+  - note
+abbrlink: 38e1dcf6
+date: 2021-07-04 00:00:00
 ---
 
 

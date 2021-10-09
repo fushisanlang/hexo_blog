@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 # ulimit与内核优化
 
 

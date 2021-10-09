@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 # redhat7 yum源
 
 

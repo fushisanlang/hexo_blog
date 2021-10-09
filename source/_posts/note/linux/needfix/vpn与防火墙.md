@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 vpn与防火墙
 
 vpn

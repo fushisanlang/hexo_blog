@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: awk
-tags :
- - awk
- - shell
+tags:
+  - awk
+  - shell
 categories:
- - note
+  - note
+abbrlink: c4a2fe4
+date: 2021-07-04 00:00:00
 ---
 
 ###  awk

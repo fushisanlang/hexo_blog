@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: centos7 安装docker-ce
-tags :
- - docker
+tags:
+  - docker
 categories:
- - note
+  - note
+abbrlink: 866edd7c
+date: 2021-07-04 00:00:00
 ---
 
 ```shell

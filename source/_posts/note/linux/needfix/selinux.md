@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 * 什么是selinux
 
 selinux，内核级加强型防火墙

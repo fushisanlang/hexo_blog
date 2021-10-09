@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: index.jsp
-tags :
- - mdphp
+tags:
+  - mdphp
 categories:
- - file
+  - file
+abbrlink: 6c70013b
+date: 2021-07-04 00:00:00
 ---
 ```jsp
 <%@ page contentType="text/html; charset=GBK" %>

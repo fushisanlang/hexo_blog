@@ -1,12 +1,13 @@
 ---
-date: 2021-07-04
 title: redis+keepalived
-tags :
- - redis
- - keepalived
- - need fix
+tags:
+  - redis
+  - keepalived
+  - need fix
 categories:
- - note
+  - note
+abbrlink: bf4738b7
+date: 2021-07-04 00:00:00
 ---
 
 

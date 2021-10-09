@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: split命令
-tags :
- - split
+tags:
+  - split
 categories:
- - note
+  - note
+abbrlink: aa4c47b6
+date: 2021-07-04 00:00:00
 ---
 
 

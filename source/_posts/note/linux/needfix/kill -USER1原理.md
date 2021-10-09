@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 ### kill -USER1原理
 
 

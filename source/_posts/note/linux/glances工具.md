@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: glances 工具
-tags :
- - glances
+tags:
+  - glances
 categories:
- - note 
+  - note
+abbrlink: fef299cd
+date: 2021-07-04 00:00:00
 ---
 
 

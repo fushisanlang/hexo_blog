@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: tomcat_logstash.conf
-tags :
- - logstash
+tags:
+  - logstash
 categories:
- - file
+  - file
+abbrlink: 91116fcd
+date: 2021-07-04 00:00:00
 ---
 ```
 input {  

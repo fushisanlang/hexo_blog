@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
     dd if=/dev/xvdb1 of=test4 bs=1000M count=1
     
     dd 命令

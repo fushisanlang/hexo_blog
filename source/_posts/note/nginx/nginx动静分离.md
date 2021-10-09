@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: nginx配置
-tags :
- - nginx
+tags:
+  - nginx
 categories:
- - note 
+  - note
+abbrlink: 2bee8b90
+date: 2021-07-04 00:00:00
 ---
 
 ### nginx配置

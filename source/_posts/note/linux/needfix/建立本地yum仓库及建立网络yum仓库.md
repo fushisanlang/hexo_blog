@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 ### 建立本地yum仓库
 ```
 mv /home/kiosk/Desktop/rhel-server-7.0-x86_64-dvd.iso /iso   #得到iso并保证位置安全      

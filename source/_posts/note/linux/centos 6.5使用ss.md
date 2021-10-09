@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: centos 6.5使用ss
-tags :
- - ss
+tags:
+  - ss
 categories:
- - note
+  - note
+abbrlink: 5752adde
+date: 2021-07-04 00:00:00
 ---
 
 ```shell

@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: pxc 8.0安装mysql集群
-tags :
- - pxc
- - mysql
+tags:
+  - pxc
+  - mysql
 categories:
- - note 
+  - note
+abbrlink: 60c6c8ab
+date: 2021-07-04 00:00:00
 ---
 
 

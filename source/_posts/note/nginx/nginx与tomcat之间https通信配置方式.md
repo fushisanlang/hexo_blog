@@ -1,12 +1,13 @@
 ---
-date: 2021-07-04
 title: nginx与tomcat之间https通信配置方式
-tags :
- - nginx
- - tomcat
- - https
+tags:
+  - nginx
+  - tomcat
+  - https
 categories:
- - note 
+  - note
+abbrlink: 77eff4f
+date: 2021-07-04 00:00:00
 ---
 
 ### nginx与tomcat之间https通信配置方式

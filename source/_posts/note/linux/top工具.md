@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: top命令
-tags :
- - top
+tags:
+  - top
 categories:
- - note
+  - note
+abbrlink: '93739e63'
+date: 2021-07-04 00:00:00
 ---
 
 

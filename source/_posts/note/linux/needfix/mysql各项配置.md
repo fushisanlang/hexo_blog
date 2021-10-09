@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 ## **mysql配置文件**
 
 ### /etc/my.cnf  

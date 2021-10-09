@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
     ssh –V  #来查看openssh的版本，如果低于4.8p1，需要自行升级安装，
     groupadd sftp  
     useradd -g sftp -s /bin/false testuser   

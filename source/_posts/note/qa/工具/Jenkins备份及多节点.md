@@ -1,12 +1,13 @@
 ---
-date: 2021-07-04
 title: Jenkins备份及多节点
-tags :
- - qa
- - jenkins
- - need fix
+tags:
+  - qa
+  - jenkins
+  - need fix
 categories:
- - note
+  - note
+abbrlink: a9c98372
+date: 2021-07-04 00:00:00
 ---
 
 ### 一、Jenkins备份及多节点

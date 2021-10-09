@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 ### xencenter安装系统卡死在mounting_tmp_as_tmpfs_done
 
 

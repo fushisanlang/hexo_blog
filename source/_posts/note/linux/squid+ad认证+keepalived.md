@@ -1,13 +1,14 @@
 ---
-date: 2021-07-04
 title: squid+ad认证+keepalived
-tags :
- - squid
- - keepalived
- - ad认证
- - ldap
+tags:
+  - squid
+  - keepalived
+  - ad认证
+  - ldap
 categories:
- - note
+  - note
+abbrlink: 1f5fbe3f
+date: 2021-07-04 00:00:00
 ---
 
 ## 1 环境说明

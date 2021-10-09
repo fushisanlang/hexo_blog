@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 # freeswitch 安装
 
 ```shell

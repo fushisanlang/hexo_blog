@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
     vim /etc/vsftpd/vsftpd.conf
         #具体内容参照其他医院配置文件
     useradd jdkqyyftp

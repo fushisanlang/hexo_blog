@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 ulimit
 
     vim /etc/security/limits.d/90-nproc.conf

@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: flask笔记-登录与用户权限
-tags :
- - python
- - flask
+tags:
+  - python
+  - flask
 categories:
- - note
+  - note
+abbrlink: 615cc1a2
+date: 2021-07-04 00:00:00
 ---
 
 # flask笔记-登录与用户权限

@@ -1,13 +1,14 @@
 ---
-date: 2021-07-04
 title: 通过prometheus监控mysql及pxc
-tags :
- - prometheus
- - 监控
- - mysql
- - pxc
+tags:
+  - prometheus
+  - 监控
+  - mysql
+  - pxc
 categories:
- - note 
+  - note
+abbrlink: 12df73bc
+date: 2021-07-04 00:00:00
 ---
 
 

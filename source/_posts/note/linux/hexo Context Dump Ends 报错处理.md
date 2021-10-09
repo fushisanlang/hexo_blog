@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: hexo Context Dump Ends 报错处理
-tags :
- - hexo
+tags:
+  - hexo
 categories:
- - note
+  - note
+abbrlink: bb7078cb
+date: 2021-07-04 00:00:00
 ---
 
 ```

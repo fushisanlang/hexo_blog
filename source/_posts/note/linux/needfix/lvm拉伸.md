@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 
     fdisk -cu /dev/vdb
     #分区后，通过t选项将vdb1的类型改为8e。

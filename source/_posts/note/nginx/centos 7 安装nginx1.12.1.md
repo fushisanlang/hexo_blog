@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: centos 7 安装nginx1.12.1
-tags :
- - nginx
+tags:
+  - nginx
 categories:
- - note
+  - note
+abbrlink: '51966423'
+date: 2021-07-04 00:00:00
 ---
 
 ## 1、所需模块

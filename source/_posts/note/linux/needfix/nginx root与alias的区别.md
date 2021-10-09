@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 # nginx root与alias的区别
 
 nginx指定文件路径有两种方式root和alias，指令的使用方法和作用域：

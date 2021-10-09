@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: Sysbench安装与使用
-tags :
- - Sysbench安装与使用
+tags:
+  - Sysbench安装与使用
 categories:
- - note
+  - note
+abbrlink: 72fdfee0
+date: 2021-07-04 00:00:00
 ---
 
 

@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 ## zabbix接口使用
 
 

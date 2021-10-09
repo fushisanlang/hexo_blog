@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: tr 命令权限列表
-tags :
- - tr 
+tags:
+  - tr
 categories:
- - note
+  - note
+abbrlink: '97205115'
+date: 2021-07-04 00:00:00
 ---
 
 ## tr 命令

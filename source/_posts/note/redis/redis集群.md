@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: redis集群
-tags :
- - redis
+tags:
+  - redis
 categories:
- - note
+  - note
+abbrlink: b153a32a
+date: 2021-07-04 00:00:00
 ---
 
 ## 环境说明

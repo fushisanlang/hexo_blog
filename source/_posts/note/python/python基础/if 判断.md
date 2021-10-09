@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: if 判断
-tags :
- - python
+tags:
+  - python
 categories:
- - note
+  - note
+abbrlink: e8f5121a
+date: 2021-07-04 00:00:00
 ---
 
 ## if 判断

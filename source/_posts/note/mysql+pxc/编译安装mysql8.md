@@ -1,10 +1,11 @@
 ---
-date: 2021-07-04
 title: 编译安装mysql8
-tags :
- - mysql8
+tags:
+  - mysql8
 categories:
- - note 
+  - note
+abbrlink: b98497bd
+date: 2021-07-04 00:00:00
 ---
 
 ### 编译安装mysql8

@@ -1,12 +1,13 @@
 ---
-date: 2021-07-04
 title: jenkins
-tags :
- - qa
- - jenkins
- - need fix
+tags:
+  - qa
+  - jenkins
+  - need fix
 categories:
- - note
+  - note
+abbrlink: 55c27d12
+date: 2021-07-04 00:00:00
 ---
 
 ### 一、jenkins是什么？

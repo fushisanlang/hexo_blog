@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: go交叉编译
-tags :
- - go
- - 编译
+tags:
+  - go
+  - 编译
 categories:
- - note
+  - note
+abbrlink: ef23e936
+date: 2021-07-04 00:00:00
 ---
 Golang 支持在一个平台下生成另一个平台可执行程序的交叉编译功能。
 

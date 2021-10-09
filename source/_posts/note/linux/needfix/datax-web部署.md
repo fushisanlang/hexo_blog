@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 # datax-web部署
 
 [github地址](https://github.com/WeiYe-Jing/datax-web/blob/master/doc/datax-web/datax-web-deploy.md)

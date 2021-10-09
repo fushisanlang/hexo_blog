@@ -1,11 +1,12 @@
 ---
-date: 2021-07-04
 title: prometheus部署并配置成系统服务
-tags :
- - prometheus
- - 监控
+tags:
+  - prometheus
+  - 监控
 categories:
- - note 
+  - note
+abbrlink: 4d24aa39
+date: 2021-07-04 00:00:00
 ---
 
 
