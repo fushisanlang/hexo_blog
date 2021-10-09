@@ -2,6 +2,7 @@
 title: linux安装tensorflow
 categories:
   - needfix
+abbrlink: 8e6f7392
 date: 2021-07-04 00:00:00
 ---
 # linux 安装 tensorflow

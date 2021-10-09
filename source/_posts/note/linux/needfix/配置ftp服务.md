@@ -2,6 +2,7 @@
 title: 配置ftp服务
 categories:
   - needfix
+abbrlink: bd4a9c44
 date: 2021-07-04 00:00:00
 ---
     vim /etc/sysconfig/selinux

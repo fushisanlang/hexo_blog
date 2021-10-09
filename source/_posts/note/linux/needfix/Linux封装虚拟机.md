@@ -2,6 +2,7 @@
 title: Linux封装虚拟机
 categories:
   - needfix
+abbrlink: 90aefccf
 date: 2021-07-04 00:00:00
 ---
 ## 封装   

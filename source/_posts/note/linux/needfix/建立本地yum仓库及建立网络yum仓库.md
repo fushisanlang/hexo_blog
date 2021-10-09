@@ -2,6 +2,7 @@
 title: 建立本地yum仓库及建立网络yum仓库
 categories:
   - needfix
+abbrlink: '48203e08'
 date: 2021-07-04 00:00:00
 ---
 ### 建立本地yum仓库

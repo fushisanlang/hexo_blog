@@ -2,6 +2,7 @@
 title: vmstat工具
 categories:
   - needfix
+abbrlink: bdb62e73
 date: 2021-07-04 00:00:00
 ---
 

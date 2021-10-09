@@ -2,6 +2,7 @@
 title: cpu各状态说明
 categories:
   - needfix
+abbrlink: 8bab4762
 date: 2021-07-04 00:00:00
 ---
  CPU运行状态 解释

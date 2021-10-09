@@ -2,6 +2,7 @@
 title: zabbix数据库表结构
 categories:
   - needfix
+abbrlink: 211b3eb9
 date: 2021-07-04 00:00:00
 ---
 

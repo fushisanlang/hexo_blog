@@ -2,6 +2,7 @@
 title: ulimit和内核优化
 categories:
   - needfix
+abbrlink: 1fe2886a
 date: 2021-07-04 00:00:00
 ---
 ulimit

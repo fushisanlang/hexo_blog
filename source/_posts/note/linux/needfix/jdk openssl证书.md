@@ -2,6 +2,7 @@
 title: jdk openssl证书
 categories:
   - needfix
+abbrlink: 89a7c75d
 date: 2021-07-04 00:00:00
 ---
 ```

@@ -2,6 +2,7 @@
 title: 搭建内网yum源
 categories:
   - needfix
+abbrlink: 8831909b
 date: 2021-07-04 00:00:00
 ---
 ## 基于epel源搭建内网yum源

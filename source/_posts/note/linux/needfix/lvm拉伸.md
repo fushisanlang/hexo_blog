@@ -2,6 +2,7 @@
 title: lvm拉伸
 categories:
   - needfix
+abbrlink: 695bf1f7
 date: 2021-07-04 00:00:00
 ---
 

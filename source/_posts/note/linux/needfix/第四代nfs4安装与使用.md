@@ -2,6 +2,7 @@
 title: 第四代nfs4安装与使用
 categories:
   - needfix
+abbrlink: 61006a97
 date: 2021-07-04 00:00:00
 ---
 ### 环境：

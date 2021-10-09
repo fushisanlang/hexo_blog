@@ -2,6 +2,7 @@
 title: vpn与防火墙
 categories:
   - needfix
+abbrlink: c164fb50
 date: 2021-07-04 00:00:00
 ---
 vpn与防火墙

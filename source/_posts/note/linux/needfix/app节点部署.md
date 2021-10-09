@@ -2,6 +2,7 @@
 title: app节点部署
 categories:
   - needfix
+abbrlink: '28758278'
 date: 2021-07-04 00:00:00
 ---
    * tomcat配置

@@ -2,6 +2,7 @@
 title: mysql笔记
 categories:
   - needfix
+abbrlink: cff900a3
 date: 2021-07-04 00:00:00
 ---
 ```sql

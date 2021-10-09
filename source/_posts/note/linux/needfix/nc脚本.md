@@ -2,6 +2,7 @@
 title: nc脚本
 categories:
   - needfix
+abbrlink: d96a3322
 date: 2021-07-04 00:00:00
 ---
 ```shell

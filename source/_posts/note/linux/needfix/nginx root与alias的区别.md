@@ -2,6 +2,7 @@
 title: nginx root与alias的区别
 categories:
   - needfix
+abbrlink: 90ea0300
 date: 2021-07-04 00:00:00
 ---
 # nginx root与alias的区别

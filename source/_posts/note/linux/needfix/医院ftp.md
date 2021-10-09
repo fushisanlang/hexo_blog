@@ -2,6 +2,7 @@
 title: 医院ftp
 categories:
   - needfix
+abbrlink: ed7dff3c
 date: 2021-07-04 00:00:00
 ---
     vim /etc/vsftpd/vsftpd.conf

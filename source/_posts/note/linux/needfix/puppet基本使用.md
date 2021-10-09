@@ -2,6 +2,7 @@
 title: puppet基本使用
 categories:
   - needfix
+abbrlink: 667b045a
 date: 2021-07-04 00:00:00
 ---
 # puppet基本使用

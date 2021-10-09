@@ -2,6 +2,7 @@
 title: redhat7 yum源
 categories:
   - needfix
+abbrlink: 4ce3bc0b
 date: 2021-07-04 00:00:00
 ---
 # redhat7 yum源

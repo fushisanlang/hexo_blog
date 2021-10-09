@@ -2,6 +2,7 @@
 title: 网线制作+xen相关+nfs共享
 categories:
   - needfix
+abbrlink: 204b2a80
 date: 2021-07-04 00:00:00
 ---
 ## **网线制作**   

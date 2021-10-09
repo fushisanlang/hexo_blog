@@ -2,6 +2,7 @@
 title: zabbix接口使用
 categories:
   - needfix
+abbrlink: de390be8
 date: 2021-07-04 00:00:00
 ---
 ## zabbix接口使用

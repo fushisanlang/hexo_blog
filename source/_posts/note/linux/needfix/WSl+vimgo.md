@@ -2,6 +2,7 @@
 title: WSl+vimgo
 categories:
   - needfix
+abbrlink: 8dec6b6c
 date: 2021-07-04 00:00:00
 ---
 # WSl创建golang-unix开发环境

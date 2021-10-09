@@ -2,6 +2,7 @@
 title: iptables工具
 categories:
   - needfix
+abbrlink: f71faba5
 date: 2021-07-04 00:00:00
 ---
     iptables -L -n #查看iptables已有策略

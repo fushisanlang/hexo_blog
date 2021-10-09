@@ -2,6 +2,7 @@
 title: pxc安装mysql集群
 categories:
   - needfix
+abbrlink: 942b5025
 date: 2021-07-04 00:00:00
 ---
 ## PXC搭建

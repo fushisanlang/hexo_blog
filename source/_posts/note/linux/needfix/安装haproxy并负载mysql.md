@@ -2,6 +2,7 @@
 title: 安装haproxy并负载mysql
 categories:
   - needfix
+abbrlink: 306013b0
 date: 2021-07-04 00:00:00
 ---
     cd /soft  #将软件包放在此目录

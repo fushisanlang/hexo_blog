@@ -2,6 +2,7 @@
 title: 基于puppet 工具的定制化节点配置文件部署
 categories:
   - needfix
+abbrlink: 7c5f96c6
 date: 2021-07-04 00:00:00
 ---
 # 基于puppet 工具的定制化节点配置文件部署

@@ -2,6 +2,7 @@
 title: 忘记mysql密码
 categories:
   - needfix
+abbrlink: 23a737cb
 date: 2021-07-04 00:00:00
 ---
 确保服务器安全  

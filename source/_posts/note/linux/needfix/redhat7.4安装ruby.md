@@ -2,6 +2,7 @@
 title: redhat7
 categories:
   - needfix
+abbrlink: 9679361e
 date: 2021-07-04 00:00:00
 ---
 # redhat7.4安装ruby

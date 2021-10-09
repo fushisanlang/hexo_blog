@@ -2,6 +2,7 @@
 title: nfs搭建
 categories:
   - needfix
+abbrlink: 941a0cef
 date: 2021-07-04 00:00:00
 ---
 * 只读分享 

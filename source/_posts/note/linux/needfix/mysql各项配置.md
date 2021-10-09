@@ -2,6 +2,7 @@
 title: mysql各项配置
 categories:
   - needfix
+abbrlink: 66274c52
 date: 2021-07-04 00:00:00
 ---
 ## **mysql配置文件**

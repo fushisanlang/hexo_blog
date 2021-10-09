@@ -2,6 +2,7 @@
 title: linux安装python3
 categories:
   - needfix
+abbrlink: 82eef90b
 date: 2021-07-04 00:00:00
 ---
 # linux 安装 python3

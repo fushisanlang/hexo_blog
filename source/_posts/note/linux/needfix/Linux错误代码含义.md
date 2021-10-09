@@ -2,6 +2,7 @@
 title: Linux错误代码含义
 categories:
   - needfix
+abbrlink: f4b4ff58
 date: 2021-07-04 00:00:00
 ---
 # Linux错误代码含义

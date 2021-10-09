@@ -2,6 +2,7 @@
 title: ntopng安装
 categories:
   - needfix
+abbrlink: 9b44f28
 date: 2021-07-04 00:00:00
 ---
 ## ntopng安装

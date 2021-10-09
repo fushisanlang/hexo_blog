@@ -2,6 +2,7 @@
 title: ls -al参数
 categories:
   - needfix
+abbrlink: 5ae8187
 date: 2021-07-04 00:00:00
 ---
      1）第一栏是文件属性，共有10个属性，每一位代表一个属性。

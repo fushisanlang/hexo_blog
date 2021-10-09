@@ -2,6 +2,7 @@
 title: 源码安装pxc5
 categories:
   - needfix
+abbrlink: 89adca3d
 date: 2021-07-04 00:00:00
 ---
 # 源码安装pxc5.7
