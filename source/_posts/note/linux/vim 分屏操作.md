@@ -1,12 +1,11 @@
 ---
-abbrlink: '0'
-date: 2021-07-04 00:00:00
----
 title: vim 分屏操作
-tags :
- - vim
+tags:
+  - vim
 categories:
- - note
+  - note
+abbrlink: 71449a1e
+date: 2021-07-04 00:00:00
 ---
 
 

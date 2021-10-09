@@ -1,12 +1,11 @@
 ---
-abbrlink: '0'
-date: 2021-07-04 00:00:00
----
 title: hadoop
-tags :
- - hadoop
+tags:
+  - hadoop
 categories:
- - note
+  - note
+abbrlink: b4989874
+date: 2021-07-04 00:00:00
 ---
 
 

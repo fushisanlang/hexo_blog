@@ -1,14 +1,13 @@
 ---
-
-date: 2021-07-04 00:00:00
-
 title: flask笔记-使用mysql连接池
-tags :
- - python
- - flask
- - mysql-connecter-pooling
+tags:
+  - python
+  - flask
+  - mysql-connecter-pooling
 categories:
- - note
+  - note
+abbrlink: d0a690e1
+date: 2021-07-04 00:00:00
 ---
 
 # flask笔记-使用mysql连接池

@@ -1,14 +1,13 @@
 ---
-abbrlink: '0'
-date: 2021-07-04 00:00:00
----
 title: rhce模拟题
-tags :
- - rhce
- - exam
- - need fix
+tags:
+  - rhce
+  - exam
+  - need fix
 categories:
- - note 
+  - note
+abbrlink: f3fcd0e8
+date: 2021-07-04 00:00:00
 ---
 
 

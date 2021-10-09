@@ -1,13 +1,12 @@
 ---
-abbrlink: '0'
-date: 2021-07-04 00:00:00
----
 title: keepalived + nginx
-tags :
- - keepalived
- - nginx
+tags:
+  - keepalived
+  - nginx
 categories:
- - note
+  - note
+abbrlink: fe8bda9b
+date: 2021-07-04 00:00:00
 ---
 
 

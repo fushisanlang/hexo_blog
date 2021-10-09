@@ -1,12 +1,11 @@
 ---
-abbrlink: '0'
-date: 2021-07-04 00:00:00
----
 title: redis安装与配置
-tags :
- - redis
+tags:
+  - redis
 categories:
- - note
+  - note
+abbrlink: cd10e876
+date: 2021-07-04 00:00:00
 ---
 
 

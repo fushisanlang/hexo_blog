@@ -1,12 +1,11 @@
 ---
-abbrlink: '0'
-date: 2021-07-04 00:00:00
----
 title: iostat命令详解
-tags :
- - iostat
+tags:
+  - iostat
 categories:
- - note 
+  - note
+abbrlink: 59a882d9
+date: 2021-07-04 00:00:00
 ---
 
 

@@ -1,12 +1,11 @@
 ---
-abbrlink: '0'
-date: 2021-07-04 00:00:00
----
 title: dstat 工具
-tags :
- - dstat
+tags:
+  - dstat
 categories:
- - note
+  - note
+abbrlink: 465f5c71
+date: 2021-07-04 00:00:00
 ---
 
 

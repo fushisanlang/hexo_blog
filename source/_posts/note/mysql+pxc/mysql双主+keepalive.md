@@ -1,13 +1,12 @@
 ---
-abbrlink: '0'
-date: 2021-07-04 00:00:00
----
 title: mysql双主+keepalived
-tags :
- - mysql
- - keepalived
+tags:
+  - mysql
+  - keepalived
 categories:
- - note
+  - note
+abbrlink: 812e902b
+date: 2021-07-04 00:00:00
 ---
 
 

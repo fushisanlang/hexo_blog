@@ -1,13 +1,12 @@
 ---
-abbrlink: '0'
-date: 2021-07-04 00:00:00
----
-title: NERD tree树形目录插件 
-tags :
- - code
- - vim
+title: NERD tree树形目录插件
+tags:
+  - code
+  - vim
 categories:
- - note
+  - note
+abbrlink: 516ec693
+date: 2021-07-04 00:00:00
 ---
 
 * ### 插件介绍

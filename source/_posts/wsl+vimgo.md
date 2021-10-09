@@ -1,14 +1,13 @@
 ---
-abbrlink: '0'
-date: 2021-07-04 00:00:00
----
-title: WSl创建golang-unix开发环境 
-tags :
- - code
- - wsl
- - vimgo
+title: WSl创建golang-unix开发环境
+tags:
+  - code
+  - wsl
+  - vimgo
 categories:
- - note 
+  - note
+abbrlink: 20d06290
+date: 2021-07-04 00:00:00
 ---
 
 
