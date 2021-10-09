@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: 安装haproxy并负载mysql
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
     cd /soft  #将软件包放在此目录
     tar xzvf haproxy-1.7.5.tar.gz

@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: 网线制作+xen相关+nfs共享
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 ## **网线制作**   
 网线有两种排线标准：   

@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: vsftpd虚拟用户配置
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 ## vsftpd虚拟用户配置 
 

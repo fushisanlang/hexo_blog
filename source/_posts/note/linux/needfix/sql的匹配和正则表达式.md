@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: sql的匹配和正则表达式
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 ## [sql的匹配和正则表达式](https://www.cnblogs.com/qi-yuan-008/p/11892962.html)
 

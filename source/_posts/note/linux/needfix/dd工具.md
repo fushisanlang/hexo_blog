@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: dd工具
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
     dd if=/dev/xvdb1 of=test4 bs=1000M count=1
     

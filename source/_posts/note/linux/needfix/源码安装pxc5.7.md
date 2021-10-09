@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: 源码安装pxc5
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 # 源码安装pxc5.7
 

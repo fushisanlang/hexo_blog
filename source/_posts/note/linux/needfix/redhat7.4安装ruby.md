@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: redhat7
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 # redhat7.4安装ruby
 

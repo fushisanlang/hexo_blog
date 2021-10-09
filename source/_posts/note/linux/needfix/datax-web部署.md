@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: datax-web部署
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 # datax-web部署
 

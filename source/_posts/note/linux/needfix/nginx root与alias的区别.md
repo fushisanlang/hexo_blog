@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: nginx root与alias的区别
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 # nginx root与alias的区别
 

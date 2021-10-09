@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: 第四代nfs4安装与使用
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 ### 环境：
 

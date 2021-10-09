@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: 更改单一tomcat用户的java环境
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 ## **更改单一tomcat用户的java环境**
 

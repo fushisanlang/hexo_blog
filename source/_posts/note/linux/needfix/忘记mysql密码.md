@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: 忘记mysql密码
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 确保服务器安全  
 最好断开网络 本机操作

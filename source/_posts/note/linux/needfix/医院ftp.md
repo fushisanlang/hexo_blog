@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: 医院ftp
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
     vim /etc/vsftpd/vsftpd.conf
         #具体内容参照其他医院配置文件

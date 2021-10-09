@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: free工具
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 如下显示free是显示的当前内存的使用,-m的意思是M字节来显示内容.我们来一起看看.
 

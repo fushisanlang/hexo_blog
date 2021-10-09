@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: vpn与防火墙
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 vpn与防火墙
 

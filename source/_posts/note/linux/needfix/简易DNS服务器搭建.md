@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: 简易DNS服务器搭建
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 # 简易DNS服务器搭建
 

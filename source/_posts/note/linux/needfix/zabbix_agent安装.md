@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: zabbix_agent安装
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 
 ## **zabbix-agent安装**

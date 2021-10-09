@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: nc脚本
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 ```shell
 cat 2 |while read IPPORT

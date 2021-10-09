@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: 关于mysql远程连接的配置问题
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 ## **mysql授权远程连接**
 

@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: selinux
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 * 什么是selinux
 

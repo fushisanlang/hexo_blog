@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: WSl+vimgo
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 # WSl创建golang-unix开发环境
 

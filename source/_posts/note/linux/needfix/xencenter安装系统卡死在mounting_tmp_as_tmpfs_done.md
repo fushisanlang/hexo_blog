@@ -1,5 +1,8 @@
 ---
-abbrlink: '0'
+title: xencenter安装系统卡死在mounting_tmp_as_tmpfs_done
+categories:
+  - needfix
+date: 2021-07-04 00:00:00
 ---
 ### xencenter安装系统卡死在mounting_tmp_as_tmpfs_done
 
