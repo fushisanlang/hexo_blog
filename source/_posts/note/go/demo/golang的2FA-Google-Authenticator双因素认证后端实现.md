@@ -1,11 +1,12 @@
 ---
 title: golang的2FA-Google-Authenticator双因素认证后端实现
-date: 2021-10-14
-updated: 2021-10-14
 tags:
   - go
 categories:
   - demo
+abbrlink: eab36d72
+date: 2021-10-14 00:00:00
+updated: 2021-10-14 00:00:00
 ---
 ## 1. TOTP的概念
 

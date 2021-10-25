@@ -1,7 +1,5 @@
 ---
-title: iframe使用 
-date: 2021-10-21
-updated: 2021-10-21
+title: iframe使用
 tags:
   - w3c
   - html
@@ -9,6 +7,9 @@ tags:
   - demo
 categories:
   - note
+abbrlink: 1c95b3fb
+date: 2021-10-21 00:00:00
+updated: 2021-10-21 00:00:00
 ---
 
 # 分解示例
