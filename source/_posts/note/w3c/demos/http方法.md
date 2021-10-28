@@ -1,13 +1,13 @@
 ---
-title: http方法 
-date: 2021-10-28
-updated: 2021-10-28
+title: http方法
 tags:
   - w3c
   - html
-
 categories:
   - note
+abbrlink: 5444ecf7
+date: 2021-10-28 00:00:00
+updated: 2021-10-28 00:00:00
 ---
 ## GET
 
