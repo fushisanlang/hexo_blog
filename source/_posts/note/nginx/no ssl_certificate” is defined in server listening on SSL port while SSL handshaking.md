@@ -1,11 +1,14 @@
 ---
-title: 解决 no ssl_certificate” is defined in server listening on SSL port while SSL handshaking
-date: 2021-12-23
-updated: 2021-12-23
+title: >-
+  解决 no ssl_certificate” is defined in server listening on SSL port while SSL
+  handshaking
 tags:
   - nginx
 categories:
   - note
+abbrlink: 1eb46da8
+date: 2021-12-23 00:00:00
+updated: 2021-12-23 00:00:00
 ---
 
 ## 现象
