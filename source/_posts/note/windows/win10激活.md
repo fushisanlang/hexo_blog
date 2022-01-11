@@ -1,9 +1,10 @@
 ---
-title: win10 激活 
+title: win10 激活
 tags:
-  - windows 
+  - windows
 categories:
-  - windows 
+  - windows
+abbrlink: 722cf0d1
 date: 2021-10-28 00:00:00
 ---
 
