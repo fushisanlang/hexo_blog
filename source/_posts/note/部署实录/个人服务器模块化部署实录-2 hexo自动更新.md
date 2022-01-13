@@ -212,4 +212,5 @@ docker run -d -e gitName=${gitName} -e gitEmail=${gitEmail}  -e gitUrl=${gitUrlW
 - [ ] webhook信息的使用
 - [ ] 异常后的回滚处理
 - [ ] 更新方式改造
+- [ ] 多次推送如果间隔过短，容器会多次发布。这样生成的文件可能会是混乱的，需要一个文件锁来保证文件的一致性。
 - [ ] so on
