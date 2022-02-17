@@ -8,7 +8,7 @@ tags:
   - Kafka
 categories:
   - note
-
+abbrlink: 5be08c97
 ---
 
 ## 前言
