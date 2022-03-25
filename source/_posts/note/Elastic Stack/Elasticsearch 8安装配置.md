@@ -1,7 +1,6 @@
 ---
 title: Centos 7 安装 elasticsearch 8 及添加密码认证
 date: 2022-3-15
-
 tags:
   - Elasticsearch
   - xpack
@@ -9,7 +8,7 @@ tags:
   - elk
 categories:
   - note
-
+abbrlink: '24548045'
 ---
 
 
