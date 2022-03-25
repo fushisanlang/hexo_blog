@@ -1,11 +1,12 @@
 ---
 title: prometheus实战-监控个人阿里云服务器
-date: 2022-03-25
 tags:
   - prometheus
   - 监控
 categories:
   - note
+abbrlink: 5caf4d1f
+date: 2022-03-25 00:00:00
 ---
 
 ## 项目背景
