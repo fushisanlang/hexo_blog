@@ -3,6 +3,7 @@ title: prometheus实战-监控个人阿里云服务器
 tags:
   - prometheus
   - 监控
+  - 部署实录
 categories:
   - note
 abbrlink: 5caf4d1f
