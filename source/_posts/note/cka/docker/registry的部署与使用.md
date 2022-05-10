@@ -1,11 +1,12 @@
 ---
 title: registry 的部署与使用
-date: 2022-05-10
 tags:
   - docker
   - registry
 categories:
   - note
+abbrlink: fff5620d
+date: 2022-05-10 00:00:00
 ---
 
 
