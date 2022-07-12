@@ -19,13 +19,12 @@ abbrlink: e57a84c1
 2|172.20.10.2|node10-2|centos6.7 x86_64
 2|172.20.10.3|node10-3|centos6.7 x86_64
 
-<!--more-->
-
 * ### 安装基础环境
 
 ```shell
 yum groupinstall "Development Tools" -y
 yum install epel-release
+yum install gcc c++ zip unzip man vim telnet wget nethogs htop glances dstat traceroute lrzsz goaccess ntpdate dos2unix openssl-devel xinetd lvm2
 ```
 
 * ### 配置系统最大文件数

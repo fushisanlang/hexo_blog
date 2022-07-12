@@ -9,7 +9,6 @@ categories:
   - note
 abbrlink: 71e7f679
 ---
-
 # rhcsa 
 
 ### change root passwd
@@ -84,7 +83,9 @@ ll -d /home/managers
 
 ```
 
+### update kernel
 ```shell
+rpm -ivh http://172.25.10.254/update/kernel-3.10.0-123.1.2.el7.x86_64.rpm
 vim /boot/grub2/grub.cfg   /menuentry 
 grub2-set-default 0
 reboot

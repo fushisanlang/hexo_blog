@@ -8,7 +8,7 @@ categories:
   - file
 abbrlink: 91116fcd
 ---
-```
+
 input {  
  file {  
   path => "/usr/local/tomcat/logs/localhost_access_log*.txt"  
@@ -25,6 +25,7 @@ filter{
 (?:%{NUMBER:bytes}|-) %{NUMBER:responsetime} \"(?:%{URI:referrer}|-)\" %
 {QS:agent}" }
   }    
+  date{
    match => [ "timestamp", "dd/MMM/yyyy:HH:mm:ss Z" ]
    target => ["writetime"]
   }  
@@ -45,4 +46,3 @@ output {
   }  
  }
 }
-```

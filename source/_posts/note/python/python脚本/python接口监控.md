@@ -53,6 +53,7 @@ while True:
         #使用get方法获得json，可以换作post方法并添加认证参数
         result = requests.request("get",url,)
         #模拟结果如下：
+        #{ "date": "20190922 10:10:01", "running": "ok", "errorcode": "1" }
         #将json转为字典形式
         result_dict=json.loads(result.text)
         #打印running的值
@@ -81,4 +82,5 @@ while True:
         os.system('systemctl start nginx')
         #睡眠时间应该根据应用启动时间进行调整，此处用1s，方便测试
         time.sleep(1)
+
 ```

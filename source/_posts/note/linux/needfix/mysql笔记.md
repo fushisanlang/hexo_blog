@@ -6,6 +6,7 @@ categories:
   - note
 abbrlink: cff900a3
 ---
+
 ```sql
 /* 启动MySQL */
 net start mysql
@@ -17,6 +18,7 @@ mysql -h 地址 -P 端口 -u 用户名 -p 密码
 mysqld --skip-grant-tables
 -- 修改root密码
 密码加密函数password()
+update mysql.user set password=password('root');
 
 SHOW PROCESSLIST -- 显示哪些线程正在运行
 SHOW VARIABLES -- 显示服务器的环境变量
@@ -224,15 +226,19 @@ SET NAMES GBK;    -- 相当于完成以上三个设置
 
 3. 日期时间类型
     一般用整型保存时间戳，因为PHP可以很方便的将时间戳进行格式化。
+    datetime    8字节    日期及时间        1000-01-01 00:00:00 到 9999-12-31 23:59:59
+    date        3字节    日期            1000-01-01 到 9999-12-31
     timestamp    4字节    时间戳        19700101000000 到 2038-01-19 03:14:07
     time        3字节    时间            -838:59:59 到 838:59:59
     year        1字节    年份            1901 - 2155
     
+datetime    “YYYY-MM-DD hh:mm:ss”
 timestamp    “YY-MM-DD hh:mm:ss”
             “YYYYMMDDhhmmss”
             “YYMMDDhhmmss”
             YYYYMMDDhhmmss
             YYMMDDhhmmss
+date        “YYYY-MM-DD”
             “YY-MM-DD”
             “YYYYMMDD”
             “YYMMDD”
@@ -311,6 +317,7 @@ set(val1, val2, val3...)
     insert into tab values (default, 'val');    -- 此时表示强制使用默认值。
     create table tab ( add_time timestamp default current_timestamp );
         -- 表示将当前时间的时间戳设为默认值。
+        current_date, current_time
 
 5. auto_increment 自动增长约束
     自动增长必须为索引（主键或unique）
@@ -336,6 +343,7 @@ set(val1, val2, val3...)
     此时需要检测一个从表的外键需要约束为主表的已存在的值。外键在没有关联的情况下，可以设置为null.前提是该外键列，没有not null。
 
     可以不指定主表记录更改或更新时的动作，那么此时主表的操作被拒绝。
+    如果指定了 on update 或 on delete：在删除或更新时，有如下几个操作可以选择：
     1. cascade，级联操作。主表数据被更新（主键值更新），从表也被更新（外键值更新）。主表记录被删除，从表相关记录也被删除。
     2. set null，设置为null。主表数据被更新（主键值更新），从表的外键被设置为null。主表记录被删除，从表相关记录外键被设置成null。但注意，要求该外键列，没有not null属性约束。
     3. restrict，拒绝父表删除和更新。
@@ -536,6 +544,7 @@ select语句获得的数据可以用insert插入。
     insert into tbl_name select ...;
 
 可以指定在插入的值出现主键（或唯一索引）冲突时，更新其他非主键列的信息。
+    insert into tbl_name values/set/select on duplicate key update 字段=值, …;
 
 /* delete */ ------------------
 DELETE FROM tbl_name [WHERE where_definition] [ORDER BY ...] [LIMIT row_count]
@@ -740,7 +749,10 @@ end
 
 -- 特殊的执行
 1. 只要添加记录，就会触发程序。
+2. Insert into on duplicate key update 语法会触发：
     如果没有重复记录，会触发 before insert, after insert;
+    如果有重复记录并更新，会触发 before insert, before update, after update;
+    如果有重复记录但是没有发生更新，则触发 before insert, before update
 3. Replace 语法 如果有记录，则执行 before insert, before delete, after delete, after insert
 
 
@@ -824,8 +836,11 @@ truncate(x, d)    -- 截取d位小数
 
 -- 时间日期函数
 now(), current_timestamp();     -- 当前日期时间
+current_date();                    -- 当前日期
 current_time();                    -- 当前时间
+date('yyyy-mm-dd hh:ii:ss');    -- 获取日期部分
 time('yyyy-mm-dd hh:ii:ss');    -- 获取时间部分
+date_format('yyyy-mm-dd hh:ii:ss', '%d %y %a %d %m %b %j');    -- 格式化时间
 unix_timestamp();                -- 获得unix时间戳
 from_unixtime();                -- 从时间戳获得时间
 

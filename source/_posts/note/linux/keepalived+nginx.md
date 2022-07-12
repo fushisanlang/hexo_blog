@@ -38,7 +38,6 @@ service keepalived start
 ```
 
 
-<!--more-->
 
 ### 配置keepalived
 
@@ -288,6 +287,7 @@ do
         INO_EVENT=$(echo $file | awk '{print $1}') 
         #把inotify输出切割-把文件路径部分赋值给INO_FILE     
         INO_FILE=$(echo $file | awk '{print $2}')      
+        echo "-------------------------------$(date)------------------------------------"
         echo $file
 #增加、修改、写入完成、移动进事件
 #增、改放在同一个判断，因为他们都肯定是针对文件的操作，
@@ -346,6 +346,7 @@ vim  /etc/rc.d/rc.local #将nginx配置文件实时同步脚本和inotify优化�
 crontab  -e  #因为inotify只在启动时会监控目录，他没有启动期间的文件发生更改，他是不知道的，所以这里每2个小时做1次全量同步，防止各种意外遗漏，保证目录一致。
 	* */2 * * *  /usr/bin/rsync -avz --password-file=/etc/rsyncd.pass /usr/local/nginx/conf/  bak@192.168.1.219::180-nginx
 ```
+
 
 
 

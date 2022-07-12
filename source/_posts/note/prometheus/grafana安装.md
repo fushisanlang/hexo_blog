@@ -25,6 +25,7 @@ echo "deb https://packages.grafana.com/enterprise/deb stable main" | sudo tee -a
 
 echo "deb https://packages.grafana.com/enterprise/deb beta main" | sudo tee -a /etc/apt/sources.list.d/grafana.list 
 
+sudo apt-get update
 sudo apt-get install grafana-enterprise
 
 sudo systemctl daemon-reload

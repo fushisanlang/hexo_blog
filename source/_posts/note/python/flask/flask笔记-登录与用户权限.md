@@ -9,7 +9,6 @@ categories:
   - note
 abbrlink: 615cc1a2
 ---
-
 # flask笔记-登录与用户权限
 
 用户认证模块 | Flask-Login
@@ -61,7 +60,7 @@ class User(UserMixin,db.Model):
     def __repr__(self):
         return '<Role %r>'%self.username
 ```
-<!--more-->
+
 
 初始化登陆
 
@@ -97,6 +96,7 @@ def create_app():
 
 
 ```
+from datetime import datetime
 from  flask import render_template,session,redirect,url_for
 from . import main
 from .forms import NameForm
@@ -109,6 +109,7 @@ from flask_login import login_required
 @login_required
 def index():
     form = NameForm()
+    if form.validate_on_submit():
         session['name'] = form.name.data
         session['ip'] = form.ip.data
         form.name.data=''
@@ -127,8 +128,6 @@ def index():
 {% extends 'base.html' %}
 {% block head %}{{ super() }}{% endblock %}
 {% block title %}登陆{% endblock %}
-date: 2016-9-22
-updated: 2016-9-23
 {% block body %}
     <h1>
 
@@ -185,6 +184,7 @@ def logout():
 @auth.route('/register',methods=['GET','POST'])
 def register():
     form = RegistrationForm()
+    if form.validate_on_submit():
         user = User(email=form.email.data,username=form.username.data,password=form.password1.data)
         db.session.add(user)
         db.session.commit()
@@ -325,6 +325,7 @@ def admin_required(f):
 
 
 ```
+from datetime import datetime
 from  flask import render_template,session,redirect,url_for
 from . import main
 from .forms import NameForm
@@ -338,6 +339,7 @@ from ..models import Permission
 @login_required
 def index():
     form = NameForm()
+    if form.validate_on_submit():
         session['name'] = form.name.data
         session['ip'] = form.ip.data
         form.name.data=''

@@ -9,6 +9,7 @@ categories:
   - note
 abbrlink: f1d60fc5
 ---
+rhce.md
 
 1.selinux
 ```
@@ -382,6 +383,7 @@ mysql -p
 	> create user Luigi@localhost identified by 'westos';
 	> grant select on Contacts.* to Luigi@localhost;
 
+select date @ DB	
 ```
 
 https://www.yangxiaojia.me/linux/8.html

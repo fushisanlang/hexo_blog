@@ -6,6 +6,7 @@ categories:
   - note
 abbrlink: 89adca3d
 ---
+
 # 源码安装pxc5.7
 
 ### 背景介绍
@@ -130,9 +131,6 @@ ln -sv /usr/local/mysql_5.7/bin/* /usr/local/bin/
 mkdir -p /data/database/mysql
 chown mysql:mysql -R /data/database/mysql
 
-#为libtcmalloc创建链接
-ln -s /usr/lib64/libtcmalloc.so /usr/local/lib/libtcmalloc.so
-
 #让mysqld支持tcmalloc
 cd /usr/local/mysql_5.7
 sed -i '/Initialize script globals/ a export LD_PRELOAD=/usr/local/lib/libtcmalloc.so' bin/mysqld_safe
@@ -143,11 +141,7 @@ sed -i '/Initialize script globals/ a export LD_PRELOAD=/usr/local/lib/libtcmall
 ### 编辑配置文件
 
 ```shell
-mv /etc/my.cnf /etc/my.cnf_8
 vim /etc/my.cnf_5.7 #具体文件见附三
-ln -s /etc/my.cnf_5.7 /etc/my.cnf
-
-#这里做软连接的原因是因为，在初始化的时候没找到指定配置文件的方法，为了后续初始化方便，以及备份的目的，使用原链接管理不同的配置文件。
 ```
 
 
@@ -164,10 +158,6 @@ ln -s /etc/my.cnf_5.7 /etc/my.cnf
 
 ```shell
 /usr/local/mysql_5.7/bin/mysqld_safe --defaults-file=/etc/my.cnf_5.7 --wsrep-new-cluster --lc_messages_dir=/usr/local/mysql_5.7/share/ --lc_messages=en_US &
-
-#启动无误后，将my.cnf替换回pxc8的配置。
-rm -rf /etc/my.cnf
-ln -s /etc/my.cnf_8 /etc/my.cnf
 ```
 
 
@@ -177,7 +167,6 @@ ln -s /etc/my.cnf_8 /etc/my.cnf
 ```sql
 -- mysql实例化初始之后，会生成临时密码记录在error文件中，初次连接后建议马上修改
 -- sst同步时，需要一个账户和密码，并配置到配置文件的wsrep_sst_auth配置项，我这里偷懒用了root用户，生产中绝不可如此使用。建议单独简历一个账户用来同步，sql语句如下：
-mysql -S /tmp/mysql_5.7.sock -p '临时密码'  #这里因为用了多个配置文件，生成了多个sock，所以登录不同实例时，需要通过sock链接
 mysql> CREATE USER 'sstuser'@'localhost' IDENTIFIED BY 's3cret';
 mysql> GRANT RELOAD, LOCK TABLES, PROCESS, REPLICATION CLIENT ON *.* TO 'sstuser'@'localhost';
 mysql> FLUSH PRIVILEGES;
@@ -318,6 +307,7 @@ relay-log-info-repository=TABLE
 binlog-checksum=NONE
 log-bin=mysql-bin
 max-binlog-size=128M
+log_slave_updates
 expire_logs_days=3
 sync_binlog=1
 binlog_cache_size = 4M

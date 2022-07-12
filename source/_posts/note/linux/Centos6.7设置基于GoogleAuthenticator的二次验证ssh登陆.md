@@ -10,6 +10,7 @@ categories:
 abbrlink: 6c80da9d
 ---
 
+
 * 环境介绍
 
 ```
@@ -18,7 +19,6 @@ centos6.7  x86_64
 ```
 
 * 安装
-<!--more-->
 
 ```shell
 yum install wget gcc make pam-devel libpng-devel -y
@@ -59,6 +59,7 @@ Your emergency scratch codes are:  ##需要注意的是：这5个验证码用一
 37383236
 70667696
 70522112
+Do you want me to update your "/root/.google_authenticator" file (y/n) y       #提示是否要更新验证文件，选择y
 
 Do you want to disallow multiple uses of the same authentication
 token? This restricts you to one login about every 30s, but it increases

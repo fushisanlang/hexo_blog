@@ -12,6 +12,10 @@ abbrlink: 812e902b
 
 
 
+# mysql双主+keepalived
+
+
+
 ## 环境介绍
 
 节点|ip|系统|mysql版本|keepalived版本|备注
@@ -21,7 +25,6 @@ abbrlink: 812e902b
 3|172.20.10.3|-| - |-|vip
 
 
-<!--more-->
 
 ## 安装配置mysql
 
@@ -65,6 +68,8 @@ vim /etc/my.cnf
 	auto-increment-offset = 1    
 	slave-skip-errors = all      
 
+mkdir -p /data/mysql
+chown mysql.mysql /data/mysql 
 systemctl restart mysql #修改配置后重启服务
 
 #yum安装后，mysql5.7的初始密码保存在mysql的error日志中。默认位置为/var/log/mysqld.log

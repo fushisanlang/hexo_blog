@@ -24,7 +24,7 @@ abbrlink: '51966423'
 - 模块名称：ngx_http_proxy_connect_module
 	- [x] [https://codeload.github.com/chobits/ngx_http_proxy_connect_module/zip/master]
 ---
-<!--more-->
+
 
 ## 2、安装环境介绍
 | 平台             | NGINX版本    | 安装模块                                            |
@@ -36,6 +36,7 @@ abbrlink: '51966423'
 ## 3、Nginx安装步骤
 ### 3.1、安装系统工具
 ```shell
+[root@localhost ~]# yum install vim telnet wget nethogs htop glances dstat traceroute lrzsz goaccess ntpdate dos2unix openssl-devel tcpdump lrzsz fio -y
 ```
 
 ### 3.2、安装编译开发组件

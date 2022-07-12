@@ -8,5 +8,6 @@ abbrlink: f9be2fb1
 ---
 ```
 sudo supervisorctl reread
+sudo supervisorctl update
 ```
 

@@ -10,6 +10,7 @@ categories:
 abbrlink: 4d24aa39
 ---
 
+# prometheus部署并配置成系统服务
 
 ## 部署、启动
 
@@ -21,7 +22,7 @@ abbrlink: 4d24aa39
 wget https://github.com/prometheus/prometheus/releases/download/v2.3.2/prometheus-2.3.2.linux-amd64.tar.gz
 tar -xvf prometheus-2.3.2.linux-amd64.tar.gz
 ```
-<!--more-->
+
 解压以后得到下面的文件：
 
 ```
@@ -43,6 +44,7 @@ make build
 ```
  ./prometheus
 level=info ts=2018-08-18T12:57:33.232435663Z caller=main.go:222 msg="Starting Prometheus" version="(version=2.3.2, branch=HEAD, revision=71af5e29e815795e9dd14742ee7725682fa14b7b)"
+level=info ts=2018-08-18T12:57:33.235107465Z caller=main.go:223 build_context="(go=go1.10.3, user=root@5258e0bd9cc1, date=20180712-14:02:52)"
 ...
 ```
 

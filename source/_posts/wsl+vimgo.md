@@ -11,6 +11,7 @@ categories:
 abbrlink: 20d06290
 ---
 
+# WSl创建golang-unix开发环境
 
 *未作说明均为普通用户操作。为了美观不在命令中添加命令提示符*
 
@@ -28,7 +29,6 @@ abbrlink: 20d06290
 开启wsl服务后，在微软商店搜索wsl，下载相应版本即可
 
 
-<!--more-->
 
 * ### 安装Windows Terminal
 
@@ -51,9 +51,11 @@ abbrlink: 20d06290
     sudo cp /etc/apt/sources.list /etc/apt/sources.list_bak
     sudo > /etc/apt/sources.list
     sudo echo "deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse" >> /etc/apt/sources.list
+    sudo echo "deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse" >> /etc/apt/sources.list
     sudo echo "deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse" >> /etc/apt/sources.list
     sudo echo "deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse" >> /etc/apt/sources.list
     
+    sudo apt-get update
     sudo apt-get upgrade
     ```
 
@@ -164,4 +166,8 @@ abbrlink: 20d06290
     	alias kun="cd /home/fu13/src/go/src/kun && git pull" #单独命令进到项目路径并拉取代码，用来在每次访问环境时候快速进入开发状态
     	alias ls ="ls -la" #为了应付隐藏文件过多的问题
     ```
+
+    
+
+
 

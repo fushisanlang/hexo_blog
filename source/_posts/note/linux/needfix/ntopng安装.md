@@ -19,6 +19,7 @@ ip地址 192.168.122.101 192.168.122.102 192.168.122.103
 ```shell
 ntopng-2.4-stable.tar.gz 
 rpm -ivh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm 
+ntpdate ntp1.aliyun.com
 ```
 
 ### 软件安装
@@ -53,5 +54,6 @@ wget https://copr.fedoraproject.org/coprs/saltstack/zeromq4/repo/epel-6/saltstac
 rpm -ivh http://packages.ntop.org/rpm6/extra/hiredis-0.10.1-3.el6.x86_64.rpm http://packages.ntop.org/rpm6/extra/hiredis-devel-0.10.1-3.el6.x86_64.rpm
 yum erase zeromq3 (Do this once to make sure zeromq3 is not installed)
 yum clean all
+yum update
 yum install   ntopng ntopng-data cento
 ```

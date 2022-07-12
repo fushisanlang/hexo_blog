@@ -13,7 +13,6 @@ abbrlink: 736b1750
 
 一款用来定义防护墙策略的防火墙管理工具。(虽然我们使用service iptables start启动iptables"服务"，但是其实准确的来说，iptables并没有一个守护进程，所以并不能算是真正意义上的服务，而应该算是内核提供的功能。)
 ## 入门
-<!--more-->
 ### 防火墙
 
 主要功能依据策略对穿越防护墙的流量进行过滤。
@@ -219,4 +218,5 @@ iptables -I OUTPUT -p tcp --dport 80 -m time --monthdays 6,7 -j REJECT
 
 iptables -I OUTPUT -p tcp --dport 80 -m time --weekdays 5 --monthdays 6,7 -j REJECT
 
+iptables -I OUTPUT -p tcp --dport 80 -m time --datestart 2019-08-01 --datestop 2019-09-01 -j REJECT
 ```

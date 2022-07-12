@@ -20,5 +20,6 @@ curl: (35) SSL connect error
 
 #### 解决办法：
 ```shell
+yum -y update nss
 ```
 

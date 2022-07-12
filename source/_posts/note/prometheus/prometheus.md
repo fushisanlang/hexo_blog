@@ -9,7 +9,6 @@ categories:
   - note
 abbrlink: 2cc11846
 ---
-
 # prometheus（普罗米修斯）入门使用
 
 ## 一 说明
@@ -174,6 +173,7 @@ make build
 ```
  ./prometheus
 level=info ts=2018-08-18T12:57:33.232435663Z caller=main.go:222 msg="Starting Prometheus" version="(version=2.3.2, branch=HEAD, revision=71af5e29e815795e9dd14742ee7725682fa14b7b)"
+level=info ts=2018-08-18T12:57:33.235107465Z caller=main.go:223 build_context="(go=go1.10.3, user=root@5258e0bd9cc1, date=20180712-14:02:52)"
 ...
 ```
 

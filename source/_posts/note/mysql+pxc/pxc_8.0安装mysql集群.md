@@ -11,6 +11,7 @@ abbrlink: 60c6c8ab
 ---
 
 
+
 ### 环境介绍
 
 * pxc版本：[Percona-XtraDB-Cluster-8.0.18-r167-el7-x86_64-bundle.tar](https://www.percona.com/downloads/Percona-XtraDB-Cluster-LATEST/)
@@ -24,7 +25,7 @@ abbrlink: 60c6c8ab
 	192.168.92.133|CentOS Linux release 7.8.2003 (Core)  x86_64 |node3
 
 * 防火墙： 关闭firewalld和selinux
-<!--more-->
+
 ### 安装
 
 ```shell
@@ -37,6 +38,7 @@ yum install epel-*
 yum install http://www.percona.com/downloads/percona-release/redhat/0.1-3/percona-release-0.1-3.noarch.rpm -y  #这个命令安装的是5.6版本的pxc源，但是实际使用中，8.0版本也适用。主要是用来安装qpress
 
 #安装常用工具
+yum install gcc c++ zip unzip man vim telnet wget nethogs htop glances dstat traceroute lrzsz goaccess ntpdate dos2unix openssl-devel xinetd lvm2 #有些工具，比如telnet不是pxc安装所需，但是后期运维时可能会用得上，所以一并安装
 
 #安装pxc
 yum install socat libev -y

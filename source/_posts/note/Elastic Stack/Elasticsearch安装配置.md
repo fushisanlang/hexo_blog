@@ -13,6 +13,7 @@ abbrlink: b0625b51
 
 * 环境说明
 
+
 |软件名|版本|
 |:-:|:-:|
 |rhel|7.4 x86_64|
@@ -98,6 +99,7 @@ curl -XGET "127.0.0.1:9200"
         "build_flavor" : "default",
         "build_type" : "rpm",
         "build_hash" : "1c1faf1",
+        "build_date" : "2019-09-06T14:40:30.409026Z",
         "build_snapshot" : false,
         "lucene_version" : "8.1.0",
         "minimum_wire_compatibility_version" : "6.8.0",

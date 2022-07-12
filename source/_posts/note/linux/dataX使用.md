@@ -10,7 +10,6 @@ categories:
 abbrlink: 5585c728
 ---
 
-
 ### 说明
 
 [dataX github](https://github.com/alibaba/DataX)
@@ -18,7 +17,7 @@ abbrlink: 5585c728
 > DataX 是阿里巴巴集团内被广泛使用的离线数据同步工具/平台，实现包括 MySQL、Oracle、SqlServer、Postgre、HDFS、Hive、ADS、HBase、TableStore(OTS)、MaxCompute(ODPS)、DRDS 等各种异构数据源之间高效的数据同步功能。
 
 
-<!--more-->
+
 ### 环境需求
 
 - Linux
@@ -77,6 +76,7 @@ python {YOUR_DATAX_HOME}/bin/datax.py {YOUR_DATAX_HOME}/job/job.json
 | column    | 要同步的列名           | 列名可以不对应，但是类型和总的个数要一致       |
 | preSql    | 写入前执行的语句       | 数组，比如清空表等                             |
 | postSql   | 写入后执行的语句       | 数组                                           |
+| writeMode | 写入方式，默认为insert | insert/replace/update                          |
 
 
 
