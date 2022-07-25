@@ -5,6 +5,7 @@ tags:
   - shell
 categories:
   - demo
+abbrlink: 7ac65b19
 ---
 
 ```shell
