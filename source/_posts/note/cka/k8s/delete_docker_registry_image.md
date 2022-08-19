@@ -1,11 +1,12 @@
 ---
 title: delete_docker_registry_image.py
-date: 2022-07-25
 tags:
   - python
   - k8s
 categories:
   - demo
+abbrlink: fdd66724
+date: 2022-07-25 00:00:00
 ---
 
 ```python
