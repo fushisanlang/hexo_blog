@@ -6,7 +6,8 @@ tags:
   - kubernetes
 categories:
   - note
-date: 2022-10-31
+abbrlink: '48431338'
+date: 2022-10-31 00:00:00
 ---
 
 *个人CKA学习笔记，大部分内容源于《CKA/CKAD应试指南-从Docker到Kubernetes完全攻略》一书。*
