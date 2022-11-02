@@ -7,6 +7,7 @@ tags:
   - rancher
 categories:
   - note
+abbrlink: 3c4ba8f0
 date: 2022-11-02 00:00:00
 ---
 
