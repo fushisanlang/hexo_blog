@@ -1,11 +1,12 @@
 ---
 title: minio笔记1-部署minio分布式存储集群
-date: 2022-11-28
 tags:
   - minio
   - 存储
 categories:
   - note
+abbrlink: '98398717'
+date: 2022-11-28 00:00:00
 ---
 
 # minio笔记1-部署minio分布式存储集群
