@@ -3,11 +3,10 @@ title: minio笔记3-使用prometheus监控minio
 tags:
   - minio
   - 存储
-  - demo
 categories:
   - note
 abbrlink: e2542243
-date: 2022-11-28 01:00:00
+date: 2022-11-28 02:00:00
 ---
 
 # minio笔记3-使用prometheus监控minio
