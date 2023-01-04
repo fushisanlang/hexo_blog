@@ -1,5 +1,5 @@
 ---
-title: lda学习testModel.py
+title: lda学习demo-testModel.py
 tags:
   - python
   - lda
@@ -10,7 +10,7 @@ categories:
 abbrlink: 16f14016
 date: 2023-01-04 00:00:00
 ---
-# lda学习-testModel.py
+# lda学习demo-testModel.py
 ```python
 from gensim.models.ldamodel import LdaModel
 from gensim import corpora
