@@ -1,6 +1,5 @@
 ---
 title: lda学习demo-getmodel.py
-date: 2023-01-04
 tags:
   - python
   - lda
@@ -8,6 +7,8 @@ tags:
 categories:
   - note
   - demo
+abbrlink: 55b3161a
+date: 2023-01-04 00:00:00
 ---
 # lda学习demo-getmodel.py
 ```python

@@ -1,6 +1,5 @@
 ---
 title: lda学习testModel.py
-date: 2023-01-04
 tags:
   - python
   - lda
@@ -8,6 +7,8 @@ tags:
 categories:
   - note
   - demo
+abbrlink: 16f14016
+date: 2023-01-04 00:00:00
 ---
 # lda学习testModel.py
 ```python
