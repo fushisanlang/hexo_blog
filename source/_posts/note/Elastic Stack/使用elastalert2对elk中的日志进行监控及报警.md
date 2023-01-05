@@ -1,6 +1,7 @@
 ---
 title: 使用elastalert2对elk中的日志进行监控及报警
 date: 2023-1-4
+change: 2023-1-5
 tags:
   - Elasticsearch
   - elastalert2
@@ -119,7 +120,29 @@ smtp_auth_file: "/data/email.yaml"  #这里配置了邮件发送者的账户密�
 
 ## 启动监控
 ```shell
+# 通过指定脚本启动监控
 cd /data/elastalert2/
 python -m elastalert.elastalert --verbose --rule frequency.yaml
-# 运行无误后，可以选择通过nohup 或者 supervisor 进行后台运行
+# 也可以将rule文件全部放在rules路径下，通过以下命令启动
+python -m elastalert.elastalert --verbose --rule frequency.yaml
+
+# 在实际使用中，为了方便管理，也可以通过nohup 或者 supervisor 进行后台运行。
+# 因为我这里测试机器是centos 7，就直接使用systemctl来进行管理了
+vim /usr/lib/systemd/system/elastalert2.service
+
+[Unit]
+Description=elastalert
+After=syslog.target network.target
+Wants=network.target
+
+[Service]
+WorkingDirectory=/data/elastalert2/
+ExecStart=/data/elastalert2/elastalert/bin/python -m elastalert.elastalert --verbose
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
+systemctl start elastalert2
+systemctl status elastalert2
 ```
