@@ -9,6 +9,7 @@ tags:
   - elk
 categories:
   - note
+abbrlink: 430a2835
 ---
 
 # 使用flink完成应用日志的分类处理
