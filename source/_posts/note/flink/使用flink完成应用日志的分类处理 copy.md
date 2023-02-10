@@ -7,6 +7,7 @@ tags:
   - elastic search
 categories:
   - note
+abbrlink: 8e7734f5
 ---
 
 # flink+elf(1)-通过flink完成es中日志的格式化处理
