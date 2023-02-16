@@ -7,6 +7,7 @@ tags:
   - elastic search
 categories:
   - note
+abbrlink: '91182204'
 ---
 
 # flink+elk(2)-通过flink计算服务pv
