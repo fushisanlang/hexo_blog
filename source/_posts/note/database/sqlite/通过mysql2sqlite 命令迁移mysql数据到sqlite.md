@@ -9,6 +9,7 @@ tags:
   - mysql2sqlite
 categories:
   - note
+abbrlink: ed2658fc
 ---
 
 ### 通过mysql2sqlite 命令迁移mysql数据到sqlite
