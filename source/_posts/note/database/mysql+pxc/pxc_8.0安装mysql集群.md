@@ -169,4 +169,3 @@ pxc_strict_mode=ENFORCING
 wsrep_sst_method=xtrabackup-v2
 wsrep_provider_options="socket.ssl_key=server-key.pem;socket.ssl_cert=server-cert.pem;socket.ssl_ca=ca.pem"
 ```
-
