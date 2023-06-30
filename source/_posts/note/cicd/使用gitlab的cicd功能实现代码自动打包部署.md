@@ -1,7 +1,5 @@
 ---
 title: 使用gitlab的cicd功能实现代码自动打包部署
-date: 2023-06-30
-
 tags:
   - cicd
   - gitlab
@@ -9,6 +7,8 @@ tags:
   - trivy
 categories:
   - note
+abbrlink: 59b9403b
+date: 2023-06-30 00:00:00
 ---
 
 
