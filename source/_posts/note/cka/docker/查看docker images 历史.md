@@ -12,4 +12,4 @@ categories:
 ```shell
 docker history ${images_name/images_id}
 ```
-
+ 
