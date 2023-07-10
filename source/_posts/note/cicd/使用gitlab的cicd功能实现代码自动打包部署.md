@@ -15,6 +15,9 @@ date: 2023-06-30 00:00:00
 # 使用 gitlab 的 cicd 功能实现代码自动打包部署
 
 ## 背景及大体思路说明
+
+*本文主要是作为一个记录，具体的基础知识，比如 `helm` , `trivy` 等单独记录。*
+
 以往代码库使用的是 `gogs` ，`cicd` 过程使用的是 `Jenkins` ，如果想推送代码后自动构建需要进行 `webhook` 之类的配置。
 集成度更高一点的 `gitlab`，`GitHub` 等仓库现在都自带构建功能。
 新公司使用的是 `gitlab`，所以研究一下。
@@ -22,7 +25,6 @@ date: 2023-06-30 00:00:00
 
 构建大体流程也是类似的，在 `pipeline` 中定义构建，测试，发布的流程。
 `agent` 根据不同的流程完成不同的任务。
-
 
 下边就以 `python` 项目和 `asp.net` 项目为例，记录一下研究过程。
 
@@ -40,6 +42,7 @@ date: 2023-06-30 00:00:00
 2. 配置变量列表
 `gitlab` 的 `cicd` 功能也支持预置变量，可以将一些密码，`token` 之类的提前配置好，这样在 `pipeline` 中直接使用就可以了，避免明文造成数据泄露。
 我这里添加了四个变量：
+
 |变量名|变量说明|
 |-|-|
 |HARBOR_PASS|用于登录harbor服务器的密码|
@@ -72,14 +75,14 @@ stages:
   - container_scanning
   
 variables:
-  IMAGE_NAME: harborplus.avepoint.net/devops/pythondemo
+  IMAGE_NAME: harbor.xxx/devops/pythondemo
   IMAGE_VERSION: $CI_COMMIT_SHORT_SHA
   TRIVY_CACHE_DIR: ".trivycache/"
 
 sonarqube-check:
   stage: sonarqube-check
   image:
-    name:  harborplus.avepoint.net/cicd/docker-buildbox-linux:8.2.2
+    name:  harbor.xxx/cicd/docker-buildbox-linux:8.2.2
     entrypoint: [""]
   variables:
     SONAR_USER_HOME: "${CI_PROJECT_DIR}/.sonar"  # Defines the location of the analysis task cache
@@ -96,9 +99,9 @@ sonarqube-check:
 
 build:
   stage: build
-  image: harborplus.avepoint.net/cicd/mgoltzsche/podman@sha256:4223d29239c45fda33f8d7c4fa95b34da7a1d479cbf6cb4194769dc021fab0f4
+  image: harbor.xxx/cicd/mgoltzsche/podman@sha256:4223d29239c45fda33f8d7c4fa95b34da7a1d479cbf6cb4194769dc021fab0f4
   script:
-    - docker login -u $HARBOR_USER -p $HARBOR_PASS  harborplus.avepoint.net
+    - docker login -u $HARBOR_USER -p $HARBOR_PASS  harbor.xxx
     - docker build -t $IMAGE_NAME:$IMAGE_VERSION .
     - docker push $IMAGE_NAME:$IMAGE_VERSION
 
@@ -112,22 +115,11 @@ container_scanning:
     # https://docs.gitlab.com/ee/ci/runners/README.html#git-strategy
     TRIVY_USERNAME: "$HARBOR_USER"
     TRIVY_PASSWORD: "$HARBOR_PASS"
-    TRIVY_AUTH_URL: "$harborplus.avepoint.net"
+    TRIVY_AUTH_URL: "$harbor.xxx"
     TRIVY_NO_PROGRESS: "true"
     TRIVY_CACHE_DIR: ".trivycache/"
     FULL_IMAGE_NAME: $IMAGE_NAME:$IMAGE_VERSION
   script:
-
-
-    # 输出到文件
-    # - trivy --version
-    # - time trivy image --clear-cache
-    # - time trivy image --download-db-only  --insecure --clear-cache
-    # - time trivy image --exit-code 0 --format template --template "@/contrib/gitlab.tpl"
-    #     --output "$CI_PROJECT_DIR/gl-container-scanning-report.json" "$FULL_IMAGE_NAME" --insecure --clear-cache
-    # - time trivy image --exit-code 0 "$FULL_IMAGE_NAME" --insecure --clear-cache
-    # - time trivy image --exit-code 1 --severity CRITICAL "$FULL_IMAGE_NAME" --insecure --clear-cache
-
     # 输出到控制台
     - time trivy image --download-db-only --insecure --clear-cache
     - time trivy image --exit-code 0 "$FULL_IMAGE_NAME" --insecure --clear-cache
@@ -155,14 +147,14 @@ stages:
   - container_scanning
 
 variables:
-  IMAGE_NAME: harborplus.avepoint.net/devops/dotnetdemo
+  IMAGE_NAME: harbor.xxx/devops/dotnetdemo
   IMAGE_VERSION: $CI_COMMIT_SHORT_SHA
   TRIVY_CACHE_DIR: ".trivycache/"
 
 
 sonarqube-check:
   stage: sonarqube-check
-  image:  harborplus.avepoint.net/cicd/docker-buildbox-linux:8.2.2
+  image:  harbor.xxx/cicd/docker-buildbox-linux:8.2.2
   variables:
     SONAR_USER_HOME: "${CI_PROJECT_DIR}/.sonar"  # Defines the location of the analysis task cache
     GIT_DEPTH: "0"  # Tells git to fetch all the branches of the project, required by the analysis task
@@ -181,9 +173,9 @@ sonarqube-check:
 
 build:
   stage: build
-  image: harborplus.avepoint.net/cicd/mgoltzsche/podman@sha256:4223d29239c45fda33f8d7c4fa95b34da7a1d479cbf6cb4194769dc021fab0f4
+  image: harbor.xxx/cicd/mgoltzsche/podman@sha256:4223d29239c45fda33f8d7c4fa95b34da7a1d479cbf6cb4194769dc021fab0f4
   script:
-    - docker login -u $HARBOR_USER -p $HARBOR_PASS  harborplus.avepoint.net
+    - docker login -u $HARBOR_USER -p $HARBOR_PASS  harbor.xxx
     - docker build -t $IMAGE_NAME:$IMAGE_VERSION .
     - docker push $IMAGE_NAME:$IMAGE_VERSION
 
@@ -202,21 +194,11 @@ container_scanning:
     GIT_STRATEGY: none
     TRIVY_USERNAME: "$HARBOR_USER"
     TRIVY_PASSWORD: "$HARBOR_PASS"
-    TRIVY_AUTH_URL: "$harborplus.avepoint.net"
+    TRIVY_AUTH_URL: "$harbor.xxx"
     TRIVY_NO_PROGRESS: "true"
     TRIVY_CACHE_DIR: ".trivycache/"
     FULL_IMAGE_NAME: $IMAGE_NAME:$IMAGE_VERSION
   script:
-
-
-    # 输出到文件
-    # - trivy --version
-    # - time trivy image --clear-cache
-    # - time trivy image --download-db-only  --insecure --clear-cache
-    # - time trivy image --exit-code 0 --format template --template "@/contrib/gitlab.tpl"
-    #     --output "$CI_PROJECT_DIR/gl-container-scanning-report.json" "$FULL_IMAGE_NAME" --insecure --clear-cache
-    # - time trivy image --exit-code 0 "$FULL_IMAGE_NAME" --insecure --clear-cache
-    # - time trivy image --exit-code 1 --severity CRITICAL "$FULL_IMAGE_NAME" --insecure --clear-cache
 
     # 输出到控制台
     - time trivy image --download-db-only --insecure --clear-cache
