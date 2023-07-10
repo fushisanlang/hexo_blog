@@ -7,6 +7,7 @@ tags:
   - harbor
 categories:
   - note
+abbrlink: 1cfc3e42
 ---
 
 # trivy 扫描工具踩坑记录

@@ -7,6 +7,7 @@ tags:
   - aks
 categories:
   - note
+abbrlink: bc0e9e0e
 ---
 
 # aks 使用

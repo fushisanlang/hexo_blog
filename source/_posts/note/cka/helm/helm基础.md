@@ -7,7 +7,7 @@ tags:
   - cka
 categories:
   - note
-
+abbrlink: cb722c6b
 ---
 
 # helm基础
